@@ -43,12 +43,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://kiaye.com/images/u192-6.png</loc>
-    <lastmod>2014-10-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://kiaye.com/images/u193-4.png</loc>
     <lastmod>2014-10-14</lastmod>
     <changefreq>weekly</changefreq>
@@ -74,12 +68,6 @@
   </url>
   <url>
     <loc>http://kiaye.com/images/u197-4.png</loc>
-    <lastmod>2014-10-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://kiaye.com/images/u198-6.png</loc>
     <lastmod>2014-10-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -266,6 +254,18 @@
   </url>
   <url>
     <loc>http://kiaye.com/images/u117-4.png</loc>
+    <lastmod>2014-10-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://kiaye.com/images/u192-4.png</loc>
+    <lastmod>2014-10-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://kiaye.com/images/u198-4.png</loc>
     <lastmod>2014-10-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

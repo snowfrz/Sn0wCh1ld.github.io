@@ -1,7 +1,7 @@
 <manifest alg="2" build="5" opt="false" iceEnabled="true">
   <folder name="css">
     <file name="site_global.css" crc="4023935739"/>
-    <file name="index.css" crc="4108116575" ref="index"/>
+    <file name="index.css" crc="4178401140" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="3828297711" ref="phone>index:tablet>index:index"/>
@@ -10,21 +10,19 @@
     <file name="museredirect.js" crc="299715755" ref="index"/>
   </folder>
   <folder name="images">
-    <file name="u185-6.png" crc="4206631065" ref="phone>index"/>
-    <file name="u183-4.png" crc="3944450013" ref="phone>index"/>
-    <file name="u184-4.png" crc="204112022" ref="phone>index"/>
-    <file name="u188-4.png" crc="43428067" ref="phone>index"/>
-    <file name="u189-4.png" crc="4166007677" ref="phone>index"/>
-    <file name="u190-4.png" crc="312511191" ref="phone>index"/>
-    <file name="u191-13.png" crc="4245535780" ref="phone>index"/>
-    <file name="u192-6.png" crc="4201817645" ref="phone>index"/>
-    <file name="u193-4.png" crc="463539078" ref="phone>index"/>
-    <file name="u194-4.png" crc="4246026012" ref="phone>index"/>
-    <file name="u195-4.png" crc="429055213" ref="phone>index"/>
-    <file name="u196-4.png" crc="366296435" ref="phone>index"/>
-    <file name="u197-4.png" crc="3843016516" ref="phone>index"/>
-    <file name="u198-6.png" crc="407968467" ref="phone>index"/>
-    <file name="u199-4.png" crc="3869376264" ref="phone>index"/>
+    <file name="u185-6.png" crc="4133919605" ref="phone>index"/>
+    <file name="u183-4.png" crc="290237572" ref="phone>index"/>
+    <file name="u184-4.png" crc="190053555" ref="phone>index"/>
+    <file name="u188-4.png" crc="405123696" ref="phone>index"/>
+    <file name="u189-4.png" crc="3868758534" ref="phone>index"/>
+    <file name="u190-4.png" crc="87144565" ref="phone>index"/>
+    <file name="u191-13.png" crc="3849969222" ref="phone>index"/>
+    <file name="u193-4.png" crc="4234911689" ref="phone>index"/>
+    <file name="u194-4.png" crc="203263045" ref="phone>index"/>
+    <file name="u195-4.png" crc="149558955" ref="phone>index"/>
+    <file name="u196-4.png" crc="512781003" ref="phone>index"/>
+    <file name="u197-4.png" crc="3867660348" ref="phone>index"/>
+    <file name="u199-4.png" crc="3771398768" ref="phone>index"/>
     <file name="u144-4.png" crc="3982638843" ref="tablet>index"/>
     <file name="u142-4.png" crc="3944450013" ref="tablet>index"/>
     <file name="u143-4.png" crc="524136459" ref="tablet>index"/>
@@ -55,6 +53,8 @@
     <file name="u115-4.png" crc="3843016516" ref="index"/>
     <file name="u116-4.png" crc="4282561619" ref="index"/>
     <file name="u117-4.png" crc="3869376264" ref="index"/>
+    <file name="u192-4.png" crc="3796079201" ref="phone>index"/>
+    <file name="u198-4.png" crc="4084724526" ref="phone>index"/>
   </folder>
   <folder name="tablet">
     <folder name="css">
@@ -64,9 +64,9 @@
   </folder>
   <folder name="phone">
     <folder name="css">
-      <file name="index.css" crc="254082185" ref="phone>index"/>
+      <file name="index.css" crc="436581783" ref="phone>index"/>
     </folder>
-    <file name="index.html" crc="3919244433" mt="1413340795833" redirect="true"/>
+    <file name="index.html" crc="450520222" mt="1413344664451" redirect="true"/>
   </folder>
-  <file name="index.html" crc="3959838096" mt="1413340725227" redirect="true"/>
+  <file name="index.html" crc="4046779529" mt="1413344171087" redirect="true"/>
 </manifest>
