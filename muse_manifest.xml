@@ -1,7 +1,7 @@
 <manifest alg="2" build="5" opt="false" iceEnabled="true">
   <folder name="css">
     <file name="site_global.css" crc="4023935739"/>
-    <file name="index.css" crc="3942862625" ref="index"/>
+    <file name="index.css" crc="3911036405" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="3828297711" ref="phone>index:tablet>index:index"/>
@@ -10,7 +10,6 @@
     <file name="museredirect.js" crc="299715755" ref="index"/>
   </folder>
   <folder name="images">
-    <file name="u185-6.png" crc="4133919605" ref="phone>index"/>
     <file name="u183-4.png" crc="290237572" ref="phone>index"/>
     <file name="u184-4.png" crc="190053555" ref="phone>index"/>
     <file name="u188-4.png" crc="405123696" ref="phone>index"/>
@@ -58,18 +57,22 @@
     <file name="u209-4.png" crc="288543643" ref="phone>index"/>
     <file name="u214-4.png" crc="3976277178" ref="tablet>index"/>
     <file name="u219-4.png" crc="446812722" ref="index"/>
+    <file name="u185-4.png" crc="3929228961" ref="phone>index"/>
+    <file name="u222-4.png" crc="441007740" ref="phone>index"/>
+    <file name="u221-4.png" crc="441007740" ref="tablet>index"/>
+    <file name="u220-4.png" crc="3807187866" ref="index"/>
   </folder>
   <folder name="tablet">
     <folder name="css">
-      <file name="index.css" crc="512912371" ref="tablet>index"/>
+      <file name="index.css" crc="4145477093" ref="tablet>index"/>
     </folder>
-    <file name="index.html" crc="4135864392" mt="1413402465565" redirect="true"/>
+    <file name="index.html" crc="373785141" mt="1413403176686" redirect="true"/>
   </folder>
   <folder name="phone">
     <folder name="css">
-      <file name="index.css" crc="4041577606" ref="phone>index"/>
+      <file name="index.css" crc="4063034251" ref="phone>index"/>
     </folder>
-    <file name="index.html" crc="250490233" mt="1413402408949" redirect="true"/>
+    <file name="index.html" crc="4091344244" mt="1413403219465" redirect="true"/>
   </folder>
-  <file name="index.html" crc="494312968" mt="1413402987625" redirect="true"/>
+  <file name="index.html" crc="264309980" mt="1413403353353" redirect="true"/>
 </manifest>
