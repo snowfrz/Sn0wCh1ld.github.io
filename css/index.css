@@ -6,7 +6,7 @@
 #page
 {
 	z-index: 1;
-	width: 542px;
+	width: 1411px;
 	min-height: 202.5750000000005px;
 	background-image: none;
 	border-width: 1px;
@@ -16,7 +16,7 @@
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: -1px;
-	padding: 235px 959px 62.4249999999995px 19px;
+	padding: 235px 90px 62.4249999999995px 19px;
 }
 
 #u85-4
@@ -129,6 +129,52 @@
 	top: -1px;
 	margin-bottom: -1px;
 	position: relative;
+}
+
+#pu217
+{
+	width: 0.01px;
+	padding-bottom: 110px;
+	margin-left: 1111px;
+	top: -284px;
+	margin-bottom: -109px;
+	position: relative;
+}
+
+#u217
+{
+	z-index: 75;
+	width: 300px;
+	min-height: 32px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	position: fixed;
+	top: 552px;
+	right: 190px;
+}
+
+#u219-4
+{
+	z-index: 76;
+	display: block;
+	vertical-align: top;
+	position: fixed;
+	top: 474px;
+	right: 196px;
+}
+
+#u215
+{
+	z-index: 74;
+	width: 287px;
+	min-height: 32px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	position: fixed;
+	top: 511px;
+	right: 196px;
 }
 
 #u100-4
