@@ -1,7 +1,7 @@
 <manifest alg="2" build="5" opt="false" iceEnabled="true">
   <folder name="css">
     <file name="site_global.css" crc="4023935739"/>
-    <file name="index.css" crc="3911036405" ref="index"/>
+    <file name="index.css" crc="3949370244" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="3828297711" ref="phone>index:tablet>index:index"/>
@@ -13,7 +13,7 @@
     <file name="u183-4.png" crc="290237572" ref="phone>index"/>
     <file name="u184-4.png" crc="190053555" ref="phone>index"/>
     <file name="u188-4.png" crc="405123696" ref="phone>index"/>
-    <file name="u189-4.png" crc="3868758534" ref="phone>index"/>
+    <file name="u189-4.png" crc="3759623449" ref="phone>index"/>
     <file name="u190-4.png" crc="87144565" ref="phone>index"/>
     <file name="u191-13.png" crc="3849969222" ref="phone>index"/>
     <file name="u193-4.png" crc="4234911689" ref="phone>index"/>
@@ -26,7 +26,7 @@
     <file name="u142-4.png" crc="3944450013" ref="tablet>index"/>
     <file name="u143-4.png" crc="524136459" ref="tablet>index"/>
     <file name="u147-4.png" crc="285252191" ref="tablet>index"/>
-    <file name="u148-4.png" crc="68616656" ref="tablet>index"/>
+    <file name="u148-4.png" crc="368001148" ref="tablet>index"/>
     <file name="u149-4.png" crc="141185073" ref="tablet>index"/>
     <file name="u150-13.png" crc="98085574" ref="tablet>index"/>
     <file name="u151-4.png" crc="4068034522" ref="tablet>index"/>
@@ -41,7 +41,7 @@
     <file name="u80-4.png" crc="3944450013" ref="index"/>
     <file name="u83-4.png" crc="524136459" ref="index"/>
     <file name="u94-4.png" crc="43428067" ref="index"/>
-    <file name="u97-4.png" crc="4166007677" ref="index"/>
+    <file name="u97-4.png" crc="3783337242" ref="index"/>
     <file name="u98-4.png" crc="312511191" ref="index"/>
     <file name="u99-13.png" crc="4245535780" ref="index"/>
     <file name="u100-4.png" crc="3815156551" ref="index"/>
@@ -66,13 +66,13 @@
     <folder name="css">
       <file name="index.css" crc="4145477093" ref="tablet>index"/>
     </folder>
-    <file name="index.html" crc="373785141" mt="1413403176686" redirect="true"/>
+    <file name="index.html" crc="482448139" mt="1413501966353" redirect="true"/>
   </folder>
   <folder name="phone">
     <folder name="css">
-      <file name="index.css" crc="4063034251" ref="phone>index"/>
+      <file name="index.css" crc="33367465" ref="phone>index"/>
     </folder>
-    <file name="index.html" crc="4091344244" mt="1413403219465" redirect="true"/>
+    <file name="index.html" crc="4238184581" mt="1413501972901" redirect="true"/>
   </folder>
-  <file name="index.html" crc="264309980" mt="1413403353353" redirect="true"/>
+  <file name="index.html" crc="4158204813" mt="1413501947392" redirect="true"/>
 </manifest>
