@@ -49,14 +49,35 @@
 	position: relative;
 }
 
+#pu232
+{
+	width: 0.01px;
+	margin-left: 1px;
+	margin-top: 16px;
+	position: relative;
+}
+
+#u232
+{
+	z-index: 92;
+	width: 193px;
+	min-height: 42px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+}
+
 #u142-4
 {
 	z-index: 4;
 	display: block;
 	vertical-align: top;
-	margin-left: 354px;
-	margin-top: 38px;
 	position: relative;
+	margin-right: -10000px;
+	margin-top: 21px;
+	left: 354px;
 }
 
 #u143-4
@@ -65,7 +86,7 @@
 	display: block;
 	vertical-align: top;
 	margin-left: 286px;
-	margin-top: 16px;
+	margin-top: 17px;
 	position: relative;
 }
 
