@@ -9,13 +9,11 @@
 	width: 1466px;
 	min-height: 428.5250000000012px;
 	background-image: none;
-	border-width: 1px;
-	border-style: solid;
-	border-color: #000000;
+	border-style: none;
+	border-color: transparent;
 	background-color: #FFFFFF;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: -1px;
 	padding: 9px 48px 62.47499999999877px 6px;
 }
 
@@ -110,8 +108,8 @@
 	width: 0.01px;
 	padding-bottom: 88px;
 	margin-left: 1174px;
-	top: -42px;
-	margin-bottom: -42px;
+	top: -41px;
+	margin-bottom: -41px;
 	position: relative;
 }
 
@@ -149,8 +147,8 @@
 	display: block;
 	vertical-align: top;
 	margin-left: 13px;
-	top: -47px;
-	margin-bottom: -47px;
+	top: -48px;
+	margin-bottom: -48px;
 	position: relative;
 }
 
@@ -159,7 +157,7 @@
 	width: 0.01px;
 	padding-bottom: 166px;
 	margin-left: 1084px;
-	top: -284px;
+	top: -283px;
 	margin-bottom: -165px;
 	position: relative;
 }
