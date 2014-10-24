@@ -242,13 +242,38 @@
 	position: relative;
 }
 
+#pu199-4
+{
+	width: 0.01px;
+	margin-left: 1px;
+	margin-top: 12px;
+	position: relative;
+}
+
 #u199-4
 {
 	z-index: 70;
 	display: block;
 	vertical-align: top;
-	margin-left: 1px;
-	margin-top: 12px;
+	position: relative;
+	margin-right: -10000px;
+}
+
+#u227-4
+{
+	z-index: 84;
+	display: block;
+	vertical-align: top;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 66px;
+}
+
+#u228-4
+{
+	z-index: 88;
+	display: block;
+	vertical-align: top;
 	position: relative;
 }
 
@@ -258,7 +283,7 @@
 	display: block;
 	vertical-align: top;
 	margin-left: 147px;
-	top: -1706px;
+	top: -1707px;
 	margin-bottom: -25px;
 	position: relative;
 }
@@ -269,7 +294,7 @@
 	display: block;
 	vertical-align: top;
 	margin-left: 190px;
-	margin-top: 7px;
+	margin-top: 6px;
 	position: relative;
 }
 
