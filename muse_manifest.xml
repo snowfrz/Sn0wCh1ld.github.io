@@ -1,7 +1,7 @@
 <manifest alg="2" build="30" opt="false" iceEnabled="true">
   <folder name="css">
     <file name="site_global.css" crc="3983832653"/>
-    <file name="index.css" crc="508416571" ref="index"/>
+    <file name="index.css" crc="156801107" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="3828297711" ref="phone>index:tablet>index:index"/>
@@ -52,7 +52,7 @@
     <file name="u80-4.png" crc="3944450013" ref="index"/>
     <file name="u83-4.png" crc="524136459" ref="index"/>
     <file name="u94-4.png" crc="461143590" ref="index"/>
-    <file name="u97-4.png" crc="3783337242" ref="index"/>
+    <file name="u97-4.png" crc="4166090217" ref="index"/>
     <file name="u98-4.png" crc="4169181698" ref="index"/>
     <file name="u99-13.png" crc="4245535780" ref="index"/>
     <file name="u220-4.png" crc="3807187866" ref="index"/>
@@ -67,18 +67,24 @@
     <file name="u117-4.png" crc="3869376264" ref="index"/>
     <file name="u223-4.png" crc="421272657" ref="index"/>
     <file name="u224-4.png" crc="215803291" ref="index"/>
+    <file name="u246-4.png" crc="3976730269" ref="phone>index"/>
+    <file name="u247-4.png" crc="4193733160" ref="phone>index"/>
+    <file name="u244-4.png" crc="3976730269" ref="tablet>index"/>
+    <file name="u245-4.png" crc="4193733160" ref="tablet>index"/>
+    <file name="u242-4.png" crc="3976730269" ref="index"/>
+    <file name="u243-4.png" crc="4193733160" ref="index"/>
   </folder>
   <folder name="tablet">
     <folder name="css">
-      <file name="index.css" crc="3962974290" ref="tablet>index"/>
+      <file name="index.css" crc="101565659" ref="tablet>index"/>
     </folder>
-    <file name="index.html" crc="448828622" mt="1414276047833" redirect="true"/>
+    <file name="index.html" crc="205822818" mt="1414279605305" redirect="true"/>
   </folder>
   <folder name="phone">
     <folder name="css">
-      <file name="index.css" crc="186421467" ref="phone>index"/>
+      <file name="index.css" crc="224272615" ref="phone>index"/>
     </folder>
-    <file name="index.html" crc="268872194" mt="1414276052042" redirect="true"/>
+    <file name="index.html" crc="4151657198" mt="1414279666357" redirect="true"/>
   </folder>
-  <file name="index.html" crc="3876981105" mt="1414276042540" redirect="true"/>
+  <file name="index.html" crc="3909109404" mt="1414279565002" redirect="true"/>
 </manifest>
