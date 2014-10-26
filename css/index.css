@@ -1,0 +1,343 @@
+.version.index /* version checker */
+{
+	color: #0000E1;
+	background-color: #F7F4B0;
+}
+
+.html
+{
+	background-color: #FFFFFF;
+}
+
+#page
+{
+	z-index: 1;
+	width: 1466px;
+	min-height: 429px;
+	background-image: none;
+	border-style: none;
+	border-color: transparent;
+	background-color: #FFFFFF;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 9px 48px 62px 6px;
+}
+
+#u230
+{
+	z-index: 91;
+	width: 193px;
+	min-height: 42px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	position: relative;
+}
+
+#u85-4
+{
+	z-index: 11;
+	display: block;
+	vertical-align: top;
+	position: fixed;
+	top: 31px;
+	left: 50%;
+	margin-left: -264px;
+}
+
+#u94-4
+{
+	z-index: 16;
+	display: block;
+	vertical-align: top;
+	margin-left: 14px;
+	margin-top: 48px;
+	position: relative;
+}
+
+#u80-4
+{
+	z-index: 3;
+	display: block;
+	vertical-align: top;
+	position: fixed;
+	top: 99px;
+	right: 188px;
+}
+
+#u97-4
+{
+	z-index: 20;
+	display: block;
+	vertical-align: top;
+	margin-left: 14px;
+	position: relative;
+}
+
+#u83-4
+{
+	z-index: 7;
+	display: block;
+	vertical-align: top;
+	position: fixed;
+	top: 174px;
+	right: 120px;
+}
+
+#u242-4
+{
+	z-index: 93;
+	display: block;
+	vertical-align: top;
+	margin-left: 14px;
+	margin-top: 30px;
+	position: relative;
+}
+
+#u243-4
+{
+	z-index: 97;
+	display: block;
+	vertical-align: top;
+	margin-left: 14px;
+	position: relative;
+}
+
+#u73
+{
+	z-index: 2;
+	width: 262px;
+	min-height: 34px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	text-align: center;
+	text-indent: 0px;
+	position: fixed;
+	top: 255px;
+	right: 209px;
+}
+
+#u98-4
+{
+	z-index: 24;
+	display: block;
+	vertical-align: top;
+	margin-left: 14px;
+	margin-top: 31px;
+	position: relative;
+}
+
+#u236
+{
+	z-index: 92;
+	width: 108px;
+	min-height: 24px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	position: fixed;
+	top: 326px;
+	right: 276px;
+}
+
+#u99-13
+{
+	z-index: 28;
+	display: block;
+	vertical-align: top;
+	margin-left: 13px;
+	top: -1px;
+	margin-bottom: -1px;
+	position: relative;
+}
+
+#pu220-4
+{
+	width: 0.01px;
+	padding-bottom: 253px;
+	margin-left: 1084px;
+	margin-top: -314px;
+}
+
+#u220-4
+{
+	z-index: 79;
+	display: block;
+	vertical-align: top;
+	position: fixed;
+	top: 609px;
+	right: 149px;
+}
+
+#u219-4
+{
+	z-index: 75;
+	display: block;
+	vertical-align: top;
+	position: fixed;
+	top: 474px;
+	right: 196px;
+}
+
+#u217
+{
+	z-index: 74;
+	width: 303px;
+	min-height: 32px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	position: fixed;
+	top: 558px;
+	right: 172px;
+}
+
+#u215
+{
+	z-index: 73;
+	width: 289px;
+	min-height: 32px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	position: fixed;
+	top: 517px;
+	right: 179px;
+}
+
+#u92
+{
+	z-index: 15;
+	width: 200px;
+	min-height: 61px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	text-align: center;
+	position: fixed;
+	top: 387px;
+	right: 240px;
+}
+
+#u100-4
+{
+	z-index: 41;
+	display: block;
+	vertical-align: top;
+	margin-left: 14px;
+	margin-top: 68px;
+	position: relative;
+}
+
+#u101-4
+{
+	z-index: 45;
+	display: block;
+	vertical-align: top;
+	margin-left: 14px;
+	position: relative;
+}
+
+#u104-4
+{
+	z-index: 49;
+	display: block;
+	vertical-align: top;
+	margin-left: 14px;
+	margin-top: 42px;
+	position: relative;
+}
+
+#u105-4
+{
+	z-index: 53;
+	display: block;
+	vertical-align: top;
+	margin-left: 14px;
+	position: relative;
+}
+
+#u114-4
+{
+	z-index: 57;
+	display: block;
+	vertical-align: top;
+	margin-left: 14px;
+	margin-top: 26px;
+	position: relative;
+}
+
+#u115-4
+{
+	z-index: 61;
+	display: block;
+	vertical-align: top;
+	margin-left: 13px;
+	position: relative;
+}
+
+#u116-4
+{
+	z-index: 65;
+	display: block;
+	vertical-align: top;
+	margin-left: 14px;
+	margin-top: 28px;
+	position: relative;
+}
+
+#u117-4
+{
+	z-index: 69;
+	display: block;
+	vertical-align: top;
+	margin-left: 13px;
+	position: relative;
+}
+
+#u223-4
+{
+	z-index: 83;
+	display: block;
+	vertical-align: top;
+	margin-left: 14px;
+	margin-top: 52px;
+	position: relative;
+}
+
+#u224-4
+{
+	z-index: 87;
+	display: block;
+	vertical-align: top;
+	margin-left: 14px;
+	top: -1px;
+	margin-bottom: -1px;
+	position: relative;
+}
+
+#u248
+{
+	z-index: 101;
+	width: 550px;
+	min-height: 254px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	margin-left: 479px;
+	margin-top: 172px;
+	position: relative;
+}
+
+body
+{
+	position: relative;
+	min-width: 1520px;
+}
+
+#page .verticalspacer
+{
+	clear: both;
+}
+
