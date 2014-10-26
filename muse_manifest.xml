@@ -1,7 +1,7 @@
 <manifest alg="2" build="30" opt="false" iceEnabled="true">
   <folder name="css">
     <file name="site_global.css" crc="3983832653"/>
-    <file name="index.css" crc="4149656582" ref="index"/>
+    <file name="index.css" crc="3862511405" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="3828297711" ref="phone>index:tablet>index:index"/>
@@ -76,15 +76,15 @@
   </folder>
   <folder name="tablet">
     <folder name="css">
-      <file name="index.css" crc="3890770643" ref="tablet>index"/>
+      <file name="index.css" crc="19700316" ref="tablet>index"/>
     </folder>
-    <file name="index.html" crc="4284099746" mt="1414285232046" redirect="true"/>
+    <file name="index.html" crc="4284099746" mt="1414285570482" redirect="true"/>
   </folder>
   <folder name="phone">
     <folder name="css">
-      <file name="index.css" crc="507769276" ref="phone>index"/>
+      <file name="index.css" crc="430200068" ref="phone>index"/>
     </folder>
-    <file name="index.html" crc="413524484" mt="1414285252443" redirect="true"/>
+    <file name="index.html" crc="413524484" mt="1414285583510" redirect="true"/>
   </folder>
-  <file name="index.html" crc="3997016406" mt="1414285502689" redirect="true"/>
+  <file name="index.html" crc="3997016406" mt="1414285574043" redirect="true"/>
 </manifest>
