@@ -1,4 +1,4 @@
-<manifest alg="2" build="569" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x,2x" timestamp="1414287726430">
+<manifest alg="2" build="569" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x,2x" timestamp="1414289468333">
   <folder name="css">
     <file name="site_global.css" crc="365011649"/>
     <file name="index.css" crc="3791123632" ref="index"/>
