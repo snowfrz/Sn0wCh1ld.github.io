@@ -1,11 +1,11 @@
-<manifest alg="2" build="10" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x,2x" timestamp="1415928002694">
+<manifest alg="2" build="10" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x,2x" timestamp="1415928391122">
   <folder name="css">
     <file name="site_global.css" crc="365011649"/>
     <file name="other-sites.css" crc="359705509" ref="other-sites"/>
     <file name="anti-bullying.css" crc="3847011463" ref="anti-bullying"/>
     <file name="index.css" crc="21085287" ref="index"/>
     <file name="about.css" crc="3977129434" ref="about"/>
-    <file name="contributors.css" crc="3921994841" ref="contributors"/>
+    <file name="contributors.css" crc="3909478785" ref="contributors"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="4164521501" ref="phone>index:phone>other-sites:phone>contributors:phone>about:phone>anti-bullying:index:about:anti-bullying:contributors:other-sites"/>
@@ -286,6 +286,6 @@
   <file name="index.html" crc="454079918" mt="1415927308295" redirect="true"/>
   <file name="about.html" crc="93105515" mt="1415927741068" redirect="true"/>
   <file name="anti-bullying.html" crc="3995872481" mt="1415927789429" redirect="true"/>
-  <file name="contributors.html" crc="226126494" mt="1415927699099" redirect="true"/>
+  <file name="contributors.html" crc="363201184" mt="1415928386342" redirect="true"/>
   <file name="other-sites.html" crc="407082665" mt="1415927574293" redirect="true"/>
 </manifest>

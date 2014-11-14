@@ -1,7 +1,7 @@
 .version.contributors /* version checker */
 {
 	color: #0000E9;
-	background-color: #C4E459;
+	background-color: #05E981;
 }
 
 .html
@@ -187,9 +187,9 @@
 	width: 244px;
 	background-color: transparent;
 	text-align: center;
-	margin-left: 649px;
-	margin-top: 365px;
-	position: relative;
+	position: fixed;
+	top: 416px;
+	right: 721px;
 }
 
 #u479
@@ -201,7 +201,7 @@
 	border-color: transparent;
 	background-color: transparent;
 	margin-left: 479px;
-	margin-top: 1076px;
+	margin-top: 1458px;
 	position: relative;
 }
 
