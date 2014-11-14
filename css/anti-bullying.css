@@ -1,7 +1,7 @@
 .version.anti_bullying /* version checker */
 {
-	color: #000015;
-	background-color: #6F3EAD;
+	color: #0000E5;
+	background-color: #4CBC87;
 }
 
 .html
@@ -50,24 +50,17 @@
 	z-index: 18;
 	width: 226px;
 	background-color: transparent;
-	margin-left: 661px;
-	margin-top: 13px;
-	position: relative;
-}
-
-#pu432-4
-{
-	width: 0.01px;
-	margin-left: 545px;
-	margin-top: 5px;
+	position: fixed;
+	top: 62px;
+	right: 216px;
 }
 
 #u432-4
 {
 	z-index: 28;
-	position: relative;
-	width: 113px;
-	margin-right: -10000px;
+	position: fixed;
+	top: 136px;
+	right: 444px;
 }
 
 #u446-4
@@ -75,9 +68,9 @@
 	z-index: 20;
 	display: block;
 	vertical-align: top;
-	position: relative;
-	margin-right: -10000px;
-	left: 113px;
+	position: fixed;
+	top: 136px;
+	right: 331px;
 }
 
 #u449-4
@@ -85,44 +78,23 @@
 	z-index: 24;
 	display: block;
 	vertical-align: top;
-	position: relative;
-	margin-right: -10000px;
-	left: 226px;
+	position: fixed;
+	top: 136px;
+	right: 218px;
 }
 
 #u456-4
 {
 	z-index: 32;
-	position: relative;
-	width: 113px;
-	margin-right: -10000px;
-	left: 344px;
+	position: fixed;
+	top: 136px;
+	right: 100px;
 }
 
 #u432-4_img,#u456-4_img
 {
 	display: block;
 	vertical-align: top;
-}
-
-#u447
-{
-	z-index: 36;
-	width: 226px;
-	background-color: transparent;
-	position: fixed;
-	top: 162px;
-	right: 232px;
-}
-
-#u463-4
-{
-	z-index: 38;
-	display: block;
-	vertical-align: top;
-	margin-left: 512px;
-	margin-top: 58px;
-	position: relative;
 }
 
 #u454
@@ -135,8 +107,18 @@
 	background-color: transparent;
 	text-align: center;
 	position: fixed;
-	top: 258px;
-	right: 245px;
+	top: 184px;
+	right: 229px;
+}
+
+#u463-4
+{
+	z-index: 36;
+	display: block;
+	vertical-align: top;
+	margin-left: 512px;
+	margin-top: 163px;
+	position: relative;
 }
 
 #u437-4
@@ -145,8 +127,8 @@
 	display: block;
 	vertical-align: top;
 	position: fixed;
-	top: 328px;
-	right: 201px;
+	top: 254px;
+	right: 185px;
 }
 
 #u450
@@ -158,8 +140,8 @@
 	border-color: transparent;
 	background-color: transparent;
 	position: fixed;
-	top: 371px;
-	right: 184px;
+	top: 297px;
+	right: 168px;
 }
 
 #u453-4
@@ -168,13 +150,13 @@
 	display: block;
 	vertical-align: top;
 	position: fixed;
-	top: 454px;
-	right: 154px;
+	top: 380px;
+	right: 138px;
 }
 
 #u464-30
 {
-	z-index: 42;
+	z-index: 40;
 	display: block;
 	vertical-align: top;
 	margin-left: 478px;

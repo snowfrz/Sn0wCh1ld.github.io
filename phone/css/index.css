@@ -1,7 +1,7 @@
 .version.index /* version checker */
 {
-	color: #0000EE;
-	background-color: #F3AA01;
+	color: #00000D;
+	background-color: #077B38;
 }
 
 @-ms-viewport
@@ -38,12 +38,12 @@
 {
 	z-index: 1;
 	width: 617px;
-	min-height: 540.9482436416074px;
+	min-height: 534.8482436416075px;
 	background-image: none;
 	border-style: none;
 	border-color: #000000;
 	background-color: #FFFFFF;
-	padding: 21px 12px 8.051756358392595px 11px;
+	padding: 21px 12px 14.151756358392504px 11px;
 }
 
 #u185-4
@@ -55,11 +55,76 @@
 	position: relative;
 }
 
-#pu183-4
+#u234
+{
+	z-index: 90;
+	width: 193px;
+	min-height: 42px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	margin-left: 212px;
+	margin-top: 45px;
+	position: relative;
+}
+
+#u574
+{
+	z-index: 101;
+	width: 226px;
+	background-color: transparent;
+	margin-left: 196px;
+	top: -1px;
+	margin-bottom: -1px;
+	position: relative;
+}
+
+#pu578-4
 {
 	width: 0.01px;
-	margin-left: 46px;
-	margin-top: 45px;
+	margin-left: 80px;
+	margin-top: 4px;
+}
+
+#u578-4
+{
+	z-index: 111;
+	position: relative;
+	width: 113px;
+	margin-right: -10000px;
+}
+
+#u576-4
+{
+	z-index: 103;
+	position: relative;
+	width: 113px;
+	margin-right: -10000px;
+	left: 113px;
+}
+
+#u577-4
+{
+	z-index: 107;
+	position: relative;
+	width: 113px;
+	margin-right: -10000px;
+	left: 226px;
+}
+
+#u579-4
+{
+	z-index: 115;
+	position: relative;
+	width: 113px;
+	margin-right: -10000px;
+	left: 344px;
+}
+
+#u578-4_img,#u576-4_img,#u577-4_img,#u579-4_img
+{
+	display: block;
+	vertical-align: top;
 }
 
 #u183-4
@@ -67,27 +132,14 @@
 	z-index: 3;
 	display: block;
 	vertical-align: top;
+	margin-left: 46px;
+	margin-top: 14px;
 	position: relative;
-	margin-right: -10000px;
-	margin-top: 26px;
-}
-
-#u234
-{
-	z-index: 91;
-	width: 193px;
-	min-height: 42px;
-	border-style: none;
-	border-color: transparent;
-	background-color: transparent;
-	position: relative;
-	margin-right: -10000px;
-	left: 166px;
 }
 
 #u222-4
 {
-	z-index: 79;
+	z-index: 78;
 	display: block;
 	vertical-align: top;
 	margin-left: 147px;
@@ -122,7 +174,7 @@
 
 #u240
 {
-	z-index: 92;
+	z-index: 91;
 	width: 108px;
 	min-height: 24px;
 	border-style: none;
@@ -131,13 +183,6 @@
 	margin-left: 251px;
 	margin-top: 11px;
 	position: relative;
-}
-
-#pu186
-{
-	width: 0.01px;
-	margin-left: 1px;
-	margin-top: 58px;
 }
 
 #u186
@@ -149,9 +194,16 @@
 	border-color: transparent;
 	background-color: transparent;
 	text-align: center;
+	margin-left: 133px;
+	margin-top: 58px;
 	position: relative;
-	margin-right: -10000px;
-	left: 132px;
+}
+
+#pu188-4
+{
+	width: 0.01px;
+	margin-left: 1px;
+	margin-top: 22px;
 }
 
 #u188-4
@@ -161,7 +213,6 @@
 	vertical-align: top;
 	position: relative;
 	margin-right: -10000px;
-	margin-top: 87px;
 }
 
 #u189-4
@@ -171,12 +222,12 @@
 	vertical-align: top;
 	position: relative;
 	margin-right: -10000px;
-	margin-top: 135px;
+	margin-top: 48px;
 }
 
 #u246-4
 {
-	z-index: 93;
+	z-index: 92;
 	display: block;
 	vertical-align: top;
 	margin-left: 1px;
@@ -186,7 +237,7 @@
 
 #u247-4
 {
-	z-index: 97;
+	z-index: 96;
 	display: block;
 	vertical-align: top;
 	margin-left: 1px;
@@ -304,7 +355,7 @@
 
 #u227-4
 {
-	z-index: 83;
+	z-index: 82;
 	display: block;
 	vertical-align: top;
 	position: relative;
@@ -314,7 +365,7 @@
 
 #u228-4
 {
-	z-index: 87;
+	z-index: 86;
 	display: block;
 	vertical-align: top;
 	position: relative;
@@ -322,7 +373,7 @@
 
 #u252
 {
-	z-index: 101;
+	z-index: 100;
 	width: 550px;
 	min-height: 254px;
 	border-style: none;
@@ -335,7 +386,7 @@
 
 #u209-4
 {
-	z-index: 75;
+	z-index: 74;
 	display: block;
 	vertical-align: top;
 	margin-left: 190px;
@@ -343,36 +394,16 @@
 	position: relative;
 }
 
-#pu205
-{
-	width: 0.01px;
-	margin-left: 1px;
-	margin-top: 6px;
-}
-
 #u205
 {
 	z-index: 73;
-	width: 287px;
+	width: 289px;
 	min-height: 32px;
 	border-style: none;
 	border-color: transparent;
 	background-color: transparent;
+	margin-left: 164px;
 	position: relative;
-	margin-right: -10000px;
-}
-
-#u207
-{
-	z-index: 74;
-	width: 300px;
-	min-height: 32px;
-	border-style: none;
-	border-color: transparent;
-	background-color: transparent;
-	position: relative;
-	margin-right: -10000px;
-	left: 316px;
 }
 
 body
