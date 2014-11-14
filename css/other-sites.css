@@ -1,0 +1,203 @@
+.version.other_sites /* version checker */
+{
+	color: #0000EB;
+	background-color: #B85A90;
+}
+
+.html
+{
+	background-color: #FFFFFF;
+}
+
+#page
+{
+	z-index: 1;
+	width: 1029px;
+	min-height: 429px;
+	background-image: none;
+	border-style: none;
+	border-color: transparent;
+	background-color: #FFFFFF;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 9px 485px 62px 6px;
+}
+
+#u546
+{
+	z-index: 16;
+	width: 193px;
+	min-height: 42px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	position: relative;
+}
+
+#u521-4
+{
+	z-index: 2;
+	display: block;
+	vertical-align: top;
+	position: fixed;
+	top: 31px;
+	left: 50%;
+	margin-left: -264px;
+}
+
+#u543
+{
+	z-index: 6;
+	width: 200px;
+	min-height: 61px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	text-align: center;
+	position: fixed;
+	top: 60px;
+	right: 200px;
+}
+
+#u553
+{
+	z-index: 18;
+	width: 226px;
+	background-color: transparent;
+	margin-left: 661px;
+	margin-top: 13px;
+	position: relative;
+}
+
+#pu537-4
+{
+	width: 0.01px;
+	margin-left: 545px;
+	margin-top: 5px;
+}
+
+#u537-4
+{
+	z-index: 28;
+	position: relative;
+	width: 113px;
+	margin-right: -10000px;
+}
+
+#u555-4
+{
+	z-index: 20;
+	display: block;
+	vertical-align: top;
+	position: relative;
+	margin-right: -10000px;
+	left: 113px;
+}
+
+#u534-4
+{
+	z-index: 24;
+	position: relative;
+	width: 113px;
+	margin-right: -10000px;
+	left: 226px;
+}
+
+#u526-4
+{
+	z-index: 32;
+	position: relative;
+	width: 113px;
+	margin-right: -10000px;
+	left: 344px;
+}
+
+#u550-4
+{
+	z-index: 8;
+	display: block;
+	vertical-align: top;
+	position: fixed;
+	top: 147px;
+	right: 156px;
+}
+
+#u529
+{
+	z-index: 7;
+	width: 289px;
+	min-height: 32px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	position: fixed;
+	top: 190px;
+	right: 139px;
+}
+
+#u561-4
+{
+	z-index: 36;
+	margin-left: 654px;
+	margin-top: 65px;
+	position: relative;
+}
+
+#u527-4
+{
+	z-index: 12;
+	display: block;
+	vertical-align: top;
+	position: fixed;
+	top: 245px;
+	right: 109px;
+}
+
+#u567-4
+{
+	z-index: 44;
+	margin-left: 654px;
+	margin-top: 29px;
+	position: relative;
+}
+
+#u537-4_img,#u534-4_img,#u526-4_img,#u561-4_img,#u567-4_img
+{
+	display: block;
+	vertical-align: top;
+}
+
+#u565-4
+{
+	z-index: 40;
+	display: block;
+	vertical-align: top;
+	margin-left: 542px;
+	margin-top: 29px;
+	position: relative;
+}
+
+#u531
+{
+	z-index: 17;
+	width: 550px;
+	min-height: 254px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	margin-left: 479px;
+	margin-top: 299px;
+	position: relative;
+}
+
+body
+{
+	position: relative;
+	min-width: 1520px;
+}
+
+#page .verticalspacer
+{
+	clear: both;
+}
+

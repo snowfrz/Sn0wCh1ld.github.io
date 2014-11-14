@@ -1,13 +1,17 @@
-<manifest alg="2" build="569" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x,2x" timestamp="1414289468333">
+<manifest alg="2" build="10" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x,2x" timestamp="1415926465244">
   <folder name="css">
     <file name="site_global.css" crc="365011649"/>
-    <file name="index.css" crc="3791123632" ref="index"/>
+    <file name="index.css" crc="235879188" ref="index"/>
+    <file name="contributors.css" crc="46376084" ref="contributors"/>
+    <file name="anti-bullying.css" crc="359612077" ref="anti-bullying"/>
+    <file name="other-sites.css" crc="3954727568" ref="other-sites"/>
+    <file name="about.css" crc="3810440700" ref="about"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="3769949617" ref="phone>index:tablet>index:index"/>
-    <file name="museutils.js" crc="4050293121" ref="phone>index:tablet>index:index"/>
-    <file name="jquery.watch.js" crc="3946357177" ref="phone>index:tablet>index:index"/>
-    <file name="museredirect.js" crc="490478987" ref="index"/>
+    <file name="jquery-1.8.3.min.js" crc="4164521501" ref="phone>index:index:about:anti-bullying:contributors:other-sites"/>
+    <file name="museutils.js" crc="3777594392" ref="phone>index:index:about:anti-bullying:contributors:other-sites"/>
+    <file name="jquery.watch.js" crc="4144919381" ref="phone>index:index:about:anti-bullying:contributors:other-sites"/>
+    <file name="museredirect.js" crc="17485671" ref="index"/>
   </folder>
   <folder name="images">
     <file name="u185-4.png" crc="4171888924" ref="phone>index"/>
@@ -29,25 +33,6 @@
     <file name="u228-4.png" crc="205524897" ref="phone>index"/>
     <file name="u222-4.png" crc="43864109" ref="phone>index"/>
     <file name="u209-4.png" crc="364049753" ref="phone>index"/>
-    <file name="u144-4.png" crc="4065169689" ref="tablet>index"/>
-    <file name="u142-4.png" crc="4231882684" ref="tablet>index"/>
-    <file name="u143-4.png" crc="4174480209" ref="tablet>index"/>
-    <file name="u147-4.png" crc="321626462" ref="tablet>index"/>
-    <file name="u148-4.png" crc="3869722505" ref="tablet>index"/>
-    <file name="u149-4.png" crc="3799675925" ref="tablet>index"/>
-    <file name="u150-13.png" crc="3812997161" ref="tablet>index"/>
-    <file name="u151-4.png" crc="223218509" ref="tablet>index"/>
-    <file name="u152-4.png" crc="27699454" ref="tablet>index"/>
-    <file name="u153-4.png" crc="31220224" ref="tablet>index"/>
-    <file name="u154-4.png" crc="3848353273" ref="tablet>index"/>
-    <file name="u155-4.png" crc="4195189380" ref="tablet>index"/>
-    <file name="u156-4.png" crc="4205497662" ref="tablet>index"/>
-    <file name="u157-4.png" crc="331596585" ref="tablet>index"/>
-    <file name="u158-4.png" crc="160982632" ref="tablet>index"/>
-    <file name="u225-4.png" crc="4149796652" ref="tablet>index"/>
-    <file name="u226-4.png" crc="101090507" ref="tablet>index"/>
-    <file name="u214-4.png" crc="158964414" ref="tablet>index"/>
-    <file name="u221-4.png" crc="43864109" ref="tablet>index"/>
     <file name="u85-4.png" crc="4065169689" ref="index"/>
     <file name="u80-4.png" crc="4231882684" ref="index"/>
     <file name="u83-4.png" crc="4174480209" ref="index"/>
@@ -55,8 +40,8 @@
     <file name="u97-4.png" crc="297869177" ref="index"/>
     <file name="u98-4.png" crc="3935187115" ref="index"/>
     <file name="u99-13.png" crc="3881454004" ref="index"/>
-    <file name="u220-4.png" crc="524356872" ref="index"/>
-    <file name="u219-4.png" crc="200631061" ref="index"/>
+    <file name="u220-4.png" crc="249250792" ref="index"/>
+    <file name="u219-4.png" crc="4191333159" ref="index"/>
     <file name="u100-4.png" crc="4211920052" ref="index"/>
     <file name="u101-4.png" crc="4046390899" ref="index"/>
     <file name="u104-4.png" crc="4247559632" ref="index"/>
@@ -65,12 +50,8 @@
     <file name="u115-4.png" crc="3842982897" ref="index"/>
     <file name="u116-4.png" crc="4266457843" ref="index"/>
     <file name="u117-4.png" crc="4010943599" ref="index"/>
-    <file name="u223-4.png" crc="4149796652" ref="index"/>
-    <file name="u224-4.png" crc="101090507" ref="index"/>
     <file name="u246-4.png" crc="355653628" ref="phone>index"/>
     <file name="u247-4.png" crc="3853134054" ref="phone>index"/>
-    <file name="u244-4.png" crc="355653628" ref="tablet>index"/>
-    <file name="u245-4.png" crc="3853134054" ref="tablet>index"/>
     <file name="u242-4.png" crc="355653628" ref="index"/>
     <file name="u243-4.png" crc="3853134054" ref="index"/>
     <file name="u185-4_2x.png" crc="4056391958" ref="phone>index"/>
@@ -94,27 +75,6 @@
     <file name="u227-4_2x.png" crc="4266033944" ref="phone>index"/>
     <file name="u228-4_2x.png" crc="27324882" ref="phone>index"/>
     <file name="u209-4_2x.png" crc="4241858416" ref="phone>index"/>
-    <file name="u144-4_2x.png" crc="4129126320" ref="tablet>index"/>
-    <file name="u142-4_2x.png" crc="3831461547" ref="tablet>index"/>
-    <file name="u143-4_2x.png" crc="521630365" ref="tablet>index"/>
-    <file name="u147-4_2x.png" crc="4239323956" ref="tablet>index"/>
-    <file name="u148-4_2x.png" crc="3806435759" ref="tablet>index"/>
-    <file name="u244-4_2x.png" crc="36120134" ref="tablet>index"/>
-    <file name="u245-4_2x.png" crc="3914386397" ref="tablet>index"/>
-    <file name="u149-4_2x.png" crc="228223571" ref="tablet>index"/>
-    <file name="u150-13_2x.png" crc="133259430" ref="tablet>index"/>
-    <file name="u151-4_2x.png" crc="4214804028" ref="tablet>index"/>
-    <file name="u152-4_2x.png" crc="285462875" ref="tablet>index"/>
-    <file name="u153-4_2x.png" crc="65221974" ref="tablet>index"/>
-    <file name="u154-4_2x.png" crc="3866624915" ref="tablet>index"/>
-    <file name="u155-4_2x.png" crc="450015372" ref="tablet>index"/>
-    <file name="u156-4_2x.png" crc="4145390721" ref="tablet>index"/>
-    <file name="u157-4_2x.png" crc="441017226" ref="tablet>index"/>
-    <file name="u158-4_2x.png" crc="3833361998" ref="tablet>index"/>
-    <file name="u225-4_2x.png" crc="4266033944" ref="tablet>index"/>
-    <file name="u226-4_2x.png" crc="29662390" ref="tablet>index"/>
-    <file name="u214-4_2x.png" crc="3894123425" ref="tablet>index"/>
-    <file name="u221-4_2x.png" crc="4041226518" ref="tablet>index"/>
     <file name="u85-4_2x.png" crc="4129126320" ref="index"/>
     <file name="u94-4_2x.png" crc="199309196" ref="index"/>
     <file name="u80-4_2x.png" crc="3831461547" ref="index"/>
@@ -124,8 +84,8 @@
     <file name="u243-4_2x.png" crc="3914386397" ref="index"/>
     <file name="u98-4_2x.png" crc="518656146" ref="index"/>
     <file name="u99-13_2x.png" crc="14517898" ref="index"/>
-    <file name="u220-4_2x.png" crc="56602569" ref="index"/>
-    <file name="u219-4_2x.png" crc="534024662" ref="index"/>
+    <file name="u220-4_2x.png" crc="149401648" ref="index"/>
+    <file name="u219-4_2x.png" crc="111027051" ref="index"/>
     <file name="u100-4_2x.png" crc="4098872657" ref="index"/>
     <file name="u101-4_2x.png" crc="4259453030" ref="index"/>
     <file name="u104-4_2x.png" crc="3935602828" ref="index"/>
@@ -134,20 +94,112 @@
     <file name="u115-4_2x.png" crc="4181000372" ref="index"/>
     <file name="u116-4_2x.png" crc="4092149803" ref="index"/>
     <file name="u117-4_2x.png" crc="3949950063" ref="index"/>
-    <file name="u223-4_2x.png" crc="4266033944" ref="index"/>
-    <file name="u224-4_2x.png" crc="29662390" ref="index"/>
-  </folder>
-  <folder name="tablet">
-    <folder name="css">
-      <file name="index.css" crc="4271094723" ref="tablet>index"/>
-    </folder>
-    <file name="index.html" crc="4114388885" mt="1414287668639" redirect="true"/>
+    <file name="kiayeorglogo.png" crc="128311474" ref="index:about:anti-bullying:contributors:other-sites"/>
+    <file name="kiayeorglogo_2x.png" crc="4129989873" ref="index:about:anti-bullying:contributors:other-sites"/>
+    <file name="u274-4.png" crc="4187072857" ref="index"/>
+    <file name="u274-4_2x.png" crc="191521378" ref="index"/>
+    <file name="u271-4.png" crc="4041011813" ref="index"/>
+    <file name="u271-4_2x.png" crc="327893985" ref="index"/>
+    <file name="u273-4.png" crc="520219949" ref="index"/>
+    <file name="u273-4_2x.png" crc="187718216" ref="index"/>
+    <file name="u326-4.png" crc="3877967993" ref="index"/>
+    <file name="u326-4_2x.png" crc="4021018811" ref="index"/>
+    <file name="u379-4.png" crc="4065169689" ref="about"/>
+    <file name="u379-4_2x.png" crc="4129126320" ref="about"/>
+    <file name="u390-4.png" crc="534195476" ref="about"/>
+    <file name="u390-4_2x.png" crc="149341037" ref="about"/>
+    <file name="u393-4.png" crc="203082157" ref="about"/>
+    <file name="u393-4_2x.png" crc="285868802" ref="about"/>
+    <file name="u409-4-a.png" crc="4187072857" ref="about"/>
+    <file name="u409-4-a_2x.png" crc="191521378" ref="about"/>
+    <file name="u413-4.png" crc="4041011813" ref="about"/>
+    <file name="u413-4_2x.png" crc="327893985" ref="about"/>
+    <file name="u391-4.png" crc="520219949" ref="about"/>
+    <file name="u391-4_2x.png" crc="187718216" ref="about"/>
+    <file name="u383-4.png" crc="3877967993" ref="about"/>
+    <file name="u383-4_2x.png" crc="4021018811" ref="about"/>
+    <file name="u422-4.png" crc="4194767942" ref="about"/>
+    <file name="u422-4_2x.png" crc="3811249229" ref="about"/>
+    <file name="u423-4.png" crc="4247863777" ref="about"/>
+    <file name="u423-4_2x.png" crc="266854459" ref="about"/>
+    <file name="u408-4.png" crc="4191333159" ref="about"/>
+    <file name="u408-4_2x.png" crc="111027051" ref="about"/>
+    <file name="u424-4.png" crc="3783235960" ref="about"/>
+    <file name="u424-4_2x.png" crc="332756420" ref="about"/>
+    <file name="u425-4.png" crc="3997257208" ref="about"/>
+    <file name="u425-4_2x.png" crc="3819082745" ref="about"/>
+    <file name="u384-4.png" crc="249250792" ref="about"/>
+    <file name="u384-4_2x.png" crc="149401648" ref="about"/>
+    <file name="u426-4.png" crc="445310218" ref="about"/>
+    <file name="u426-4_2x.png" crc="3833018016" ref="about"/>
+    <file name="u427-4.png" crc="332653172" ref="about"/>
+    <file name="u427-4_2x.png" crc="72136459" ref="about"/>
+    <file name="u434-4.png" crc="4065169689" ref="anti-bullying"/>
+    <file name="u434-4_2x.png" crc="4129126320" ref="anti-bullying"/>
+    <file name="u432-4.png" crc="4187072857" ref="anti-bullying"/>
+    <file name="u432-4_2x.png" crc="191521378" ref="anti-bullying"/>
+    <file name="u446-4.png" crc="4041011813" ref="anti-bullying"/>
+    <file name="u446-4_2x.png" crc="327893985" ref="anti-bullying"/>
+    <file name="u449-4.png" crc="520219949" ref="anti-bullying"/>
+    <file name="u449-4_2x.png" crc="187718216" ref="anti-bullying"/>
+    <file name="u456-4.png" crc="3877967993" ref="anti-bullying"/>
+    <file name="u456-4_2x.png" crc="4021018811" ref="anti-bullying"/>
+    <file name="u463-4.png" crc="3945698540" ref="anti-bullying"/>
+    <file name="u463-4_2x.png" crc="369829903" ref="anti-bullying"/>
+    <file name="u437-4.png" crc="4191333159" ref="anti-bullying"/>
+    <file name="u437-4_2x.png" crc="111027051" ref="anti-bullying"/>
+    <file name="u453-4.png" crc="249250792" ref="anti-bullying"/>
+    <file name="u453-4_2x.png" crc="149401648" ref="anti-bullying"/>
+    <file name="u464-30.png" crc="232915966" ref="anti-bullying"/>
+    <file name="u464-30_2x.png" crc="3996236714" ref="anti-bullying"/>
+    <file name="u469-4.png" crc="4065169689" ref="contributors"/>
+    <file name="u469-4_2x.png" crc="4129126320" ref="contributors"/>
+    <file name="u486-4.png" crc="4231882684" ref="contributors"/>
+    <file name="u486-4_2x.png" crc="3831461547" ref="contributors"/>
+    <file name="u485-4.png" crc="4187072857" ref="contributors"/>
+    <file name="u485-4_2x.png" crc="191521378" ref="contributors"/>
+    <file name="u503-4.png" crc="4041011813" ref="contributors"/>
+    <file name="u503-4_2x.png" crc="327893985" ref="contributors"/>
+    <file name="u482-4.png" crc="520219949" ref="contributors"/>
+    <file name="u482-4_2x.png" crc="187718216" ref="contributors"/>
+    <file name="u474-4-a.png" crc="3877967993" ref="contributors"/>
+    <file name="u474-4-a_2x.png" crc="4021018811" ref="contributors"/>
+    <file name="u468-4.png" crc="4174480209" ref="contributors"/>
+    <file name="u468-4_2x.png" crc="521630365" ref="contributors"/>
+    <file name="u498-4.png" crc="4191333159" ref="contributors"/>
+    <file name="u498-4_2x.png" crc="111027051" ref="contributors"/>
+    <file name="u475-4.png" crc="249250792" ref="contributors"/>
+    <file name="u475-4_2x.png" crc="149401648" ref="contributors"/>
+    <file name="u521-4.png" crc="4065169689" ref="other-sites"/>
+    <file name="u521-4_2x.png" crc="4129126320" ref="other-sites"/>
+    <file name="u537-4.png" crc="4187072857" ref="other-sites"/>
+    <file name="u537-4_2x.png" crc="191521378" ref="other-sites"/>
+    <file name="u555-4.png" crc="4041011813" ref="other-sites"/>
+    <file name="u555-4_2x.png" crc="327893985" ref="other-sites"/>
+    <file name="u534-4.png" crc="520219949" ref="other-sites"/>
+    <file name="u534-4_2x.png" crc="187718216" ref="other-sites"/>
+    <file name="u526-4.png" crc="3877967993" ref="other-sites"/>
+    <file name="u526-4_2x.png" crc="4021018811" ref="other-sites"/>
+    <file name="u550-4.png" crc="4191333159" ref="other-sites"/>
+    <file name="u550-4_2x.png" crc="111027051" ref="other-sites"/>
+    <file name="u561-4.png" crc="4279302379" ref="other-sites"/>
+    <file name="u561-4_2x.png" crc="346622569" ref="other-sites"/>
+    <file name="u527-4.png" crc="249250792" ref="other-sites"/>
+    <file name="u527-4_2x.png" crc="149401648" ref="other-sites"/>
+    <file name="u567-4.png" crc="141222230" ref="other-sites"/>
+    <file name="u567-4_2x.png" crc="282068279" ref="other-sites"/>
+    <file name="u565-4.png" crc="191553568" ref="other-sites"/>
+    <file name="u565-4_2x.png" crc="3975238659" ref="other-sites"/>
   </folder>
   <folder name="phone">
     <folder name="css">
       <file name="index.css" crc="4008946177" ref="phone>index"/>
     </folder>
-    <file name="index.html" crc="505200000" mt="1414287668639" redirect="true"/>
+    <file name="index.html" crc="435737341" mt="1415912765211" redirect="true"/>
   </folder>
-  <file name="index.html" crc="4168616835" mt="1414287669909" redirect="true"/>
+  <file name="index.html" crc="4001101395" mt="1415926459396" redirect="true"/>
+  <file name="about.html" crc="3840482043" mt="1415926459399" redirect="true"/>
+  <file name="anti-bullying.html" crc="180537629" mt="1415926459401" redirect="true"/>
+  <file name="contributors.html" crc="403334726" mt="1415926459402" redirect="true"/>
+  <file name="other-sites.html" crc="4071359896" mt="1415926459403" redirect="true"/>
 </manifest>
