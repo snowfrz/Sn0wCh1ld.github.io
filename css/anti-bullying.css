@@ -1,7 +1,7 @@
 .version.anti_bullying /* version checker */
 {
-	color: #0000E5;
-	background-color: #4CBC87;
+	color: #000013;
+	background-color: #96D169;
 }
 
 .html
@@ -12,15 +12,21 @@
 #page
 {
 	z-index: 1;
-	width: 1029px;
-	min-height: 428.9000000000008px;
+	width: 1520px;
+	min-height: 499.9000000000008px;
 	background-image: none;
 	border-style: none;
 	border-color: transparent;
 	background-color: #FFFFFF;
+	padding-bottom: 0px;
 	margin-left: auto;
 	margin-right: auto;
-	padding: 9px 485px 62.09999999999923px 6px;
+}
+
+#page_position_content
+{
+	padding-top: 9px;
+	padding-bottom: 62px;
 }
 
 #u440
@@ -31,6 +37,7 @@
 	border-style: none;
 	border-color: transparent;
 	background-color: transparent;
+	margin-left: 6px;
 	position: relative;
 }
 
@@ -97,6 +104,16 @@
 	vertical-align: top;
 }
 
+#u463-4
+{
+	z-index: 36;
+	display: block;
+	vertical-align: top;
+	margin-left: 33px;
+	margin-top: 133px;
+	position: relative;
+}
+
 #u454
 {
 	z-index: 6;
@@ -109,16 +126,6 @@
 	position: fixed;
 	top: 184px;
 	right: 229px;
-}
-
-#u463-4
-{
-	z-index: 36;
-	display: block;
-	vertical-align: top;
-	margin-left: 512px;
-	margin-top: 163px;
-	position: relative;
 }
 
 #u437-4
@@ -159,7 +166,7 @@
 	z-index: 40;
 	display: block;
 	vertical-align: top;
-	margin-left: 478px;
+	left: -1px;
 	margin-top: 245px;
 	position: relative;
 }
@@ -172,8 +179,8 @@
 	border-style: none;
 	border-color: transparent;
 	background-color: transparent;
-	margin-left: 479px;
-	margin-top: 22px;
+	margin-left: 485px;
+	margin-top: 52px;
 	position: relative;
 }
 

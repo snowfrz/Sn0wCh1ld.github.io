@@ -1,11 +1,11 @@
-<manifest alg="2" build="10" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x,2x" timestamp="1415928391122">
+<manifest alg="2" build="10" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x,2x" timestamp="1415932560317">
   <folder name="css">
     <file name="site_global.css" crc="365011649"/>
-    <file name="other-sites.css" crc="359705509" ref="other-sites"/>
-    <file name="anti-bullying.css" crc="3847011463" ref="anti-bullying"/>
-    <file name="index.css" crc="21085287" ref="index"/>
     <file name="about.css" crc="3977129434" ref="about"/>
+    <file name="other-sites.css" crc="359705509" ref="other-sites"/>
     <file name="contributors.css" crc="3909478785" ref="contributors"/>
+    <file name="index.css" crc="21085287" ref="index"/>
+    <file name="anti-bullying.css" crc="328651113" ref="anti-bullying"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="4164521501" ref="phone>index:phone>other-sites:phone>contributors:phone>about:phone>anti-bullying:index:about:anti-bullying:contributors:other-sites"/>
@@ -232,8 +232,8 @@
     <file name="u437-4_2x.png" crc="111027051" ref="anti-bullying"/>
     <file name="u453-4.png" crc="249250792" ref="anti-bullying"/>
     <file name="u453-4_2x.png" crc="149401648" ref="anti-bullying"/>
-    <file name="u464-30.png" crc="232915966" ref="anti-bullying"/>
-    <file name="u464-30_2x.png" crc="3996236714" ref="anti-bullying"/>
+    <file name="u464-30.png" crc="86466828" ref="anti-bullying"/>
+    <file name="u464-30_2x.png" crc="303268256" ref="anti-bullying"/>
     <file name="u469-4.png" crc="4065169689" ref="contributors"/>
     <file name="u469-4_2x.png" crc="4129126320" ref="contributors"/>
     <file name="u485-4.png" crc="4187072857" ref="contributors"/>
@@ -271,11 +271,11 @@
   </folder>
   <folder name="phone">
     <folder name="css">
-      <file name="about.css" crc="474391223" ref="phone>about"/>
-      <file name="other-sites.css" crc="31122706" ref="phone>other-sites"/>
-      <file name="index.css" crc="218594104" ref="phone>index"/>
       <file name="contributors.css" crc="483195278" ref="phone>contributors"/>
+      <file name="other-sites.css" crc="31122706" ref="phone>other-sites"/>
       <file name="anti-bullying.css" crc="272818295" ref="phone>anti-bullying"/>
+      <file name="index.css" crc="218594104" ref="phone>index"/>
+      <file name="about.css" crc="474391223" ref="phone>about"/>
     </folder>
     <file name="index.html" crc="296659280" mt="1415927910713" redirect="true"/>
     <file name="other-sites.html" crc="4014350111" mt="1415927946572" redirect="true"/>
@@ -285,7 +285,7 @@
   </folder>
   <file name="index.html" crc="454079918" mt="1415927308295" redirect="true"/>
   <file name="about.html" crc="93105515" mt="1415927741068" redirect="true"/>
-  <file name="anti-bullying.html" crc="3995872481" mt="1415927789429" redirect="true"/>
-  <file name="contributors.html" crc="363201184" mt="1415928386342" redirect="true"/>
+  <file name="anti-bullying.html" crc="254740984" mt="1415932551195" redirect="true"/>
+  <file name="contributors.html" crc="3865018531" mt="1415928386342" redirect="true"/>
   <file name="other-sites.html" crc="407082665" mt="1415927574293" redirect="true"/>
 </manifest>
