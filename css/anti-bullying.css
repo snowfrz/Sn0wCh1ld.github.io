@@ -1,7 +1,7 @@
 .version.anti_bullying /* version checker */
 {
-	color: #000013;
-	background-color: #96D169;
+	color: #0000E7;
+	background-color: #6E4923;
 }
 
 .html
@@ -13,20 +13,23 @@
 {
 	z-index: 1;
 	width: 1520px;
-	min-height: 499.9000000000008px;
+	min-height: 438px;
 	background-image: none;
 	border-style: none;
 	border-color: transparent;
 	background-color: #FFFFFF;
-	padding-bottom: 0px;
+	padding-bottom: 62px;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-#page_position_content
+#pu440
 {
-	padding-top: 9px;
-	padding-bottom: 62px;
+	width: 0.01px;
+	padding-bottom: 0px;
+	margin-right: -10000px;
+	margin-top: 9px;
+	margin-left: 6px;
 }
 
 #u440
@@ -37,7 +40,42 @@
 	border-style: none;
 	border-color: transparent;
 	background-color: transparent;
-	margin-left: 6px;
+	position: relative;
+}
+
+#u770
+{
+	z-index: 66;
+	width: 560px;
+	min-height: 319px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	margin-left: 14px;
+	margin-top: 22px;
+	position: relative;
+}
+
+#u464-30
+{
+	z-index: 36;
+	display: block;
+	vertical-align: top;
+	margin-left: 13px;
+	margin-top: 21px;
+	position: relative;
+}
+
+#u438
+{
+	z-index: 17;
+	width: 550px;
+	min-height: 254px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	margin-left: 478px;
+	margin-top: 112px;
 	position: relative;
 }
 
@@ -52,6 +90,60 @@
 	margin-left: -264px;
 }
 
+#u432-4
+{
+	z-index: 28;
+	position: fixed;
+	top: 136px;
+	right: 444px;
+}
+
+#u453-4
+{
+	z-index: 12;
+	display: block;
+	vertical-align: top;
+	position: fixed;
+	top: 380px;
+	right: 138px;
+}
+
+#u437-4
+{
+	z-index: 8;
+	display: block;
+	vertical-align: top;
+	position: fixed;
+	top: 254px;
+	right: 185px;
+}
+
+#u772
+{
+	z-index: 67;
+	width: 301px;
+	min-height: 318px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	position: fixed;
+	top: 463px;
+	right: 162px;
+}
+
+#u450
+{
+	z-index: 7;
+	width: 289px;
+	min-height: 32px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	position: fixed;
+	top: 297px;
+	right: 168px;
+}
+
 #u443
 {
 	z-index: 18;
@@ -62,22 +154,26 @@
 	right: 216px;
 }
 
-#u432-4
-{
-	z-index: 28;
-	position: fixed;
-	top: 136px;
-	right: 444px;
-}
-
 #u446-4
 {
 	z-index: 20;
-	display: block;
-	vertical-align: top;
 	position: fixed;
 	top: 136px;
 	right: 331px;
+}
+
+#u454
+{
+	z-index: 6;
+	width: 200px;
+	min-height: 61px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	text-align: center;
+	position: fixed;
+	top: 184px;
+	right: 229px;
 }
 
 #u449-4
@@ -98,90 +194,10 @@
 	right: 100px;
 }
 
-#u432-4_img,#u456-4_img
+#u432-4_img,#u446-4_img,#u456-4_img
 {
 	display: block;
 	vertical-align: top;
-}
-
-#u463-4
-{
-	z-index: 36;
-	display: block;
-	vertical-align: top;
-	margin-left: 33px;
-	margin-top: 133px;
-	position: relative;
-}
-
-#u454
-{
-	z-index: 6;
-	width: 200px;
-	min-height: 61px;
-	border-style: none;
-	border-color: transparent;
-	background-color: transparent;
-	text-align: center;
-	position: fixed;
-	top: 184px;
-	right: 229px;
-}
-
-#u437-4
-{
-	z-index: 8;
-	display: block;
-	vertical-align: top;
-	position: fixed;
-	top: 254px;
-	right: 185px;
-}
-
-#u450
-{
-	z-index: 7;
-	width: 289px;
-	min-height: 32px;
-	border-style: none;
-	border-color: transparent;
-	background-color: transparent;
-	position: fixed;
-	top: 297px;
-	right: 168px;
-}
-
-#u453-4
-{
-	z-index: 12;
-	display: block;
-	vertical-align: top;
-	position: fixed;
-	top: 380px;
-	right: 138px;
-}
-
-#u464-30
-{
-	z-index: 40;
-	display: block;
-	vertical-align: top;
-	left: -1px;
-	margin-top: 245px;
-	position: relative;
-}
-
-#u438
-{
-	z-index: 17;
-	width: 550px;
-	min-height: 254px;
-	border-style: none;
-	border-color: transparent;
-	background-color: transparent;
-	margin-left: 485px;
-	margin-top: 52px;
-	position: relative;
 }
 
 body
