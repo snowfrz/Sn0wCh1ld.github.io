@@ -1,7 +1,7 @@
 .version.anti_bullying /* version checker */
 {
-	color: #0000E7;
-	background-color: #6E4923;
+	color: #0000E8;
+	background-color: #2B8A88;
 }
 
 .html
@@ -118,19 +118,6 @@
 	right: 185px;
 }
 
-#u772
-{
-	z-index: 67;
-	width: 301px;
-	min-height: 318px;
-	border-style: none;
-	border-color: transparent;
-	background-color: transparent;
-	position: fixed;
-	top: 463px;
-	right: 162px;
-}
-
 #u450
 {
 	z-index: 7;
@@ -174,6 +161,19 @@
 	position: fixed;
 	top: 184px;
 	right: 229px;
+}
+
+#u772
+{
+	z-index: 67;
+	width: 301px;
+	min-height: 318px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	position: fixed;
+	bottom: 814px;
+	right: 100px;
 }
 
 #u449-4
