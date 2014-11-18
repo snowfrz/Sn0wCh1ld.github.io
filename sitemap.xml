@@ -721,18 +721,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.kiaye.org/images/u731-4.png</loc>
-    <lastmod>2014-11-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.kiaye.org/images/u731-4_2x.png</loc>
-    <lastmod>2014-11-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://www.kiaye.org/images/u732-30.png</loc>
     <lastmod>2014-11-17</lastmod>
     <changefreq>weekly</changefreq>
@@ -1285,18 +1273,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.kiaye.org/images/u449-4.png</loc>
-    <lastmod>2014-11-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.kiaye.org/images/u449-4_2x.png</loc>
-    <lastmod>2014-11-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://www.kiaye.org/images/u456-4.png</loc>
     <lastmod>2014-11-17</lastmod>
     <changefreq>weekly</changefreq>
@@ -1513,15 +1489,27 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://www.kiaye.org/images/u449-4-a.png</loc>
+    <lastmod>2014-11-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.kiaye.org/images/u449-4-a_2x.png</loc>
+    <lastmod>2014-11-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://www.kiaye.org/index.html</loc>
-    <lastmod>2014-11-13</lastmod>
+    <lastmod>2014-11-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" media="only screen and (max-device-width: 370px)" href="http://www.kiaye.org/phone/index.html"/>
   </url>
   <url>
     <loc>http://www.kiaye.org/about.html</loc>
-    <lastmod>2014-11-13</lastmod>
+    <lastmod>2014-11-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" media="only screen and (max-device-width: 370px)" href="http://www.kiaye.org/phone/about.html"/>

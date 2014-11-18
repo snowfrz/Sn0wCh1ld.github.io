@@ -1,7 +1,7 @@
 .version.about /* version checker */
 {
-	color: #0000ED;
-	background-color: #0E2DDA;
+	color: #000002;
+	background-color: #9AED72;
 }
 
 .html
@@ -93,8 +93,6 @@
 #u413-4
 {
 	z-index: 28;
-	display: block;
-	vertical-align: top;
 	position: fixed;
 	top: 188px;
 	right: 348px;
@@ -116,7 +114,7 @@
 	right: 116px;
 }
 
-#u409-4_img,#u391-4_img,#u383-4_img
+#u409-4_img,#u413-4_img,#u391-4_img,#u383-4_img
 {
 	display: block;
 	vertical-align: top;

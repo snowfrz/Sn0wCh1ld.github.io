@@ -1,7 +1,7 @@
 .version.anti_bullying /* version checker */
 {
-	color: #0000E5;
-	background-color: #F5FA50;
+	color: #0000FC;
+	background-color: #606A97;
 }
 
 .html
@@ -186,8 +186,6 @@
 #u449-4
 {
 	z-index: 24;
-	display: block;
-	vertical-align: top;
 	position: fixed;
 	top: 136px;
 	right: 218px;
@@ -201,7 +199,7 @@
 	right: 100px;
 }
 
-#u432-4_img,#u446-4_img,#u456-4_img
+#u432-4_img,#u446-4_img,#u449-4_img,#u456-4_img
 {
 	display: block;
 	vertical-align: top;
