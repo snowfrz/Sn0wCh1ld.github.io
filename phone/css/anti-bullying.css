@@ -1,7 +1,7 @@
 .version.anti_bullying /* version checker */
 {
-	color: #0000F6;
-	background-color: #674E67;
+	color: #0000F7;
+	background-color: #EFEAEF;
 }
 
 @-ms-viewport
@@ -181,7 +181,7 @@
 {
 	z-index: 62;
 	width: 301px;
-	min-height: 318px;
+	min-height: 524px;
 	border-style: none;
 	border-color: transparent;
 	background-color: transparent;
