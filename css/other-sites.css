@@ -1,7 +1,7 @@
 .version.other_sites /* version checker */
 {
-	color: #000015;
-	background-color: #70ABA5;
+	color: #0000FF;
+	background-color: #FC7445;
 }
 
 .html
@@ -58,7 +58,7 @@
 #u561-4
 {
 	z-index: 36;
-	margin-left: 657px;
+	margin-left: 127px;
 	margin-top: 51px;
 	position: relative;
 }
@@ -100,7 +100,7 @@
 #u567-4
 {
 	z-index: 44;
-	margin-left: 657px;
+	margin-left: 127px;
 	margin-top: 29px;
 	position: relative;
 }
@@ -130,7 +130,7 @@
 	z-index: 40;
 	display: block;
 	vertical-align: top;
-	margin-left: 545px;
+	margin-left: 15px;
 	margin-top: 29px;
 	position: relative;
 }

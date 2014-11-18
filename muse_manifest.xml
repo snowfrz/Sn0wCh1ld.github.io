@@ -1,10 +1,10 @@
-<manifest alg="2" build="10" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x,2x" timestamp="1416279663712">
+<manifest alg="2" build="10" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x,2x" timestamp="1416279799203">
   <folder name="css">
     <file name="site_global.css" crc="365011649"/>
     <file name="about.css" crc="43707762" ref="about"/>
     <file name="anti-bullying.css" crc="4234177175" ref="anti-bullying"/>
     <file name="contributors.css" crc="3909478785" ref="contributors"/>
-    <file name="other-sites.css" crc="359705509" ref="other-sites"/>
+    <file name="other-sites.css" crc="4294734917" ref="other-sites"/>
     <file name="index.css" crc="4022047656" ref="index"/>
   </folder>
   <folder name="scripts">
@@ -283,5 +283,5 @@
   <file name="about.html" crc="320771520" mt="1416278560927" redirect="true"/>
   <file name="anti-bullying.html" crc="3961169652" mt="1416278548826" redirect="true"/>
   <file name="contributors.html" crc="3865018531" mt="1415928386342" redirect="true"/>
-  <file name="other-sites.html" crc="407082665" mt="1415927574293" redirect="true"/>
+  <file name="other-sites.html" crc="411746299" mt="1416279786321" redirect="true"/>
 </manifest>
