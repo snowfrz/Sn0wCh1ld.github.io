@@ -1,6 +1,6 @@
 <?php
 
-define('EMAIL_FOR_REPORTS', 'rpiette@csdcss.edu.on.ca');
+define('EMAIL_FOR_REPORTS', 'icote@csdcss.edu.on.ca');
 define('RECAPTCHA_PRIVATE_KEY', '@privatekey@');
 define('FINISH_URI', 'http://www.kiaye.org/');
 define('FINISH_ACTION', 'redirect');
