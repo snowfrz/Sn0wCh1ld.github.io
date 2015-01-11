@@ -1,7 +1,7 @@
 ////upload.php\\\\
 <?php
 # Full path to folder
-$full = '/uploads/';
+$full = 'uploads';
  
 # If needed, make the dir
 mkdir($full);
