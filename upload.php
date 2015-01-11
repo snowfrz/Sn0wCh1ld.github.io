@@ -1,11 +1,11 @@
 ////upload.php\\\\
 <?php
 # Full path to folder
-$full = 'uploads';
+$full = '/uploads/';
  
 # If needed, make the dir
 mkdir($full);
- 
+chmod("uploads", 0755);
 $target_path = $full;
  
 # the inputfieldid is the <input id="THIS" /> you used
@@ -28,3 +28,11 @@ if(move_uploaded_file($_FILES['inputfieldid']['tmp_name'], $target_path.basename
 } else {
     echo 'Extension must be .swf';
 }
+
+if (is_writable($full)) {
+    echo 'The folder is writable';
+} else {
+    echo 'The folder is not writable';
+}
+
+?>
