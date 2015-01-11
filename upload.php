@@ -1,29 +1,30 @@
+////upload.php\\\\
 <?php
-$target_dir = uploads;
-$target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
-$uploadOk = 1;
-$imageFileType = pathinfo($target_file,PATHINFO_EXTENSION);
-// Check if image file is a actual image or fake image
-if(isset($_POST["submit"])) {
-    $check = getimagesize($_FILES["fileToUpload"]["tmp_name"]);
-    if($check !== false) {
-        echo "File is an image - " . $check["mime"] . ".";
-        $uploadOk = 1;
-    } else {
-        echo "File is not an image.";
-        $uploadOk = 0;
-    }
+# Full path to folder
+$full = '/uploads/';
+ 
+# If needed, make the dir
+mkdir($full);
+ 
+$target_path = $full;
+ 
+# the inputfieldid is the <input id="THIS" /> you used
+ 
+# Try print_r($_FILES['inputfieldid']) to see all avaliable array things
+ 
+########## EXAMPLE 1 ###########
+ 
+# Checks if file has the right extension (['name'] returns file name.)
+if (end((explode(".", $_FILES['inputfieldid']['name']))) == 'swf'){
+ 
+# Moving the file from php's tmp dir to the desired folder, just adds filename to end of the dir.  basename gets rid of any / after or before name
+ 
+if(move_uploaded_file($_FILES['inputfieldid']['tmp_name'], $target_path.basename($_FILES['inputfieldid']['name']))) {
+    echo "The file ".basename( $_FILES['inputfieldid']['name'])." has been uploaded<br>";
+} else {
+    echo "There was an error uploading the file, please try again!";
 }
-
-// Check if file already exists
-if (file_exists($target_file)) {
-    echo "Sorry, file already exists.";
-    $uploadOk = 0;
+ 
+} else {
+    echo 'Extension must be .swf';
 }
-
-// Allow certain file formats
-if($imageFileType != "swf") {
-    echo "Sorry, only .swf files are allowed.";
-    $uploadOk = 0;
-}
-?>
