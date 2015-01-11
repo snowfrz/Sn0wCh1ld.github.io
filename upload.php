@@ -4,7 +4,7 @@
 $full = '/uploads/';
  
 # If needed, make the dir
-mkdir($full);
+mkdir($full, 0755)
 chmod("uploads", 0755);
 $target_path = $full;
  
