@@ -1,11 +1,12 @@
-////upload.php\\\\
 <?php
 # Full path to folder
-$full = '/uploads/';
+$full = 'uploads';
  
 # If needed, make the dir
-mkdir($full, 0755)
-chmod("uploads", 0755);
+if (!file_exists($full)) {
+mkdir($full, 0777, true);
+}
+ 
 $target_path = $full;
  
 # the inputfieldid is the <input id="THIS" /> you used
@@ -19,7 +20,7 @@ if (end((explode(".", $_FILES['inputfieldid']['name']))) == 'swf'){
  
 # Moving the file from php's tmp dir to the desired folder, just adds filename to end of the dir.  basename gets rid of any / after or before name
  
-if(move_uploaded_file($_FILES['inputfieldid']['tmp_name'], $target_path.basename($_FILES['inputfieldid']['name']))) {
+if(move_uploaded_file($_FILES['inputfieldid']['tmp_name'], $target_path.'/'.basename($_FILES['inputfieldid']['name']))) {
     echo "The file ".basename( $_FILES['inputfieldid']['name'])." has been uploaded<br>";
 } else {
     echo "There was an error uploading the file, please try again!";
@@ -27,12 +28,6 @@ if(move_uploaded_file($_FILES['inputfieldid']['tmp_name'], $target_path.basename
  
 } else {
     echo 'Extension must be .swf';
-}
-
-if (is_writable($full)) {
-    echo 'The folder is writable';
-} else {
-    echo 'The folder is not writable';
 }
 
 ?>
