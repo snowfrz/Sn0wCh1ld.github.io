@@ -96,7 +96,7 @@
 #cssmenu.align-right li:first-child a:after {
   display: none;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1080px) {
   #cssmenu ul li {
     float: none;
     display: block;
@@ -107,6 +107,7 @@
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     border-bottom: 1px solid #fb998c;
+    font-size: 3em
   }
   #cssmenu ul li.last > a,
   #cssmenu ul li:last-child > a {
