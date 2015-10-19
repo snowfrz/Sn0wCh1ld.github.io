@@ -22,9 +22,9 @@ h1{
 }
 @media (max-width: 1080px) {
     html { font-size: 3em; }
-    h1 { font-size: 1em; }
+    h1 { font-size: 2em; }
 }
 @media (min-width: 1080px) {
     html { font-size: 1em; }
-    h1 { font-size: 1em; }
+    h1 { font-size: 2em; }
 }
