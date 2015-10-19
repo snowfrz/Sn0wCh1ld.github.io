@@ -99,7 +99,7 @@
 @media screen and (max-width: 1080px) {
   #cssmenu ul li {
     float: none;
-    display: block;
+    display: run-in;
   }
   #cssmenu ul li a {
     width: 100%;
@@ -120,3 +120,5 @@
     display: none;
   }
 }
+
+
