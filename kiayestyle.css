@@ -13,13 +13,13 @@ h1{
 	
 	
 @media (max-width: 640px) {
-    html { font-size: 4em; }
+    html { font-size: 8em; }
 }
 @media (max-width: 750px) {
-    html { font-size: 3em; }
+    html { font-size: 5em; }
 }
 @media (max-width: 1080px) {
-    html { font-size: 2em; }
+    html { font-size: 3em; }
 }
 @media (min-width: 1080px) {
     html { font-size: 1em; }
