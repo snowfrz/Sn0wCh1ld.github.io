@@ -37,7 +37,9 @@
 
 
 
-	
+	#sources {
+    	word-wrap: break-word;
+	}
 	
 	
 	

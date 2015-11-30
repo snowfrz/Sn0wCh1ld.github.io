@@ -43,10 +43,7 @@ $(document).ready(function(){
         	$("#sources").fadeIn();
         	$('#bouton').css('visibility', 'hidden');
         }
-        
-        if (paragraph > 5) {
-        	
-        }
+
         
         
     
