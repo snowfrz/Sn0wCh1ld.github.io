@@ -10,6 +10,7 @@ $(document).ready(function(){
         $('#sources').css('display', 'none');
         
         $("#intro").fadeIn();
+        $("#title").fadeIn();
     	
     	
     	
