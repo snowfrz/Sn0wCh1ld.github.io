@@ -12,6 +12,11 @@ h1{
 	h1 { font-size: 2em; }
 	}
 	
+.boxed {
+  border: 10px solid black;
+  padding: 15px;
+}	
+	
 
 
 
