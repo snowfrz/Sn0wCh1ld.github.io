@@ -24,11 +24,6 @@ h1{
   -moz-border-radius: 30px;
   border-radius: 30px;
   overflow: hidden;
-}	
-
-@media (max-width: 1080px) 
-{
-  .button {display:flex;justify-content:center;align-items:center;padding:10px;
 }
 
 
@@ -176,4 +171,9 @@ nav.align-right li:first-child a:after {
   nav ul li a:before {
     display: none;
   }
+}
+
+@media (max-width: 1080px) 
+{
+  .button {display:flex;justify-content:center;align-items:center;padding:10px;
 }
