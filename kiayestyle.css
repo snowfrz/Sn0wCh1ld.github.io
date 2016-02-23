@@ -15,6 +15,15 @@ h1{
 .boxed {
   border: 10px solid black;
   padding: 15px;
+}
+
+.icon {
+  width: 130px;
+  height: 130px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  overflow: hidden;
 }	
 
 @media (max-width: 640px) {
