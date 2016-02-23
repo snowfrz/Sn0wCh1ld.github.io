@@ -27,7 +27,10 @@ h1{
 }	
 
 
-
+@media (max-width: 1080px) 
+{
+  .button {display:flex;justify-content:center;align-items:center;padding:10px;
+}
 
 
 
