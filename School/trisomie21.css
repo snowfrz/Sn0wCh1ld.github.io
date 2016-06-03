@@ -1,14 +1,21 @@
 	html{
-		margin-right: 20px;
-    	margin-left: 20px;
     
 		font-family: -apple-system, ".SFNSDisplay-Regular", 'Helvetica Neue', 'Calibri', 'Helvetica', sans-serif;
 		font-weight: 400;
     }
+    
+    body
+    {
+    	padding:0
+    }
+    
+    #content
+	{
+		margin: 20px;
+	}
 
 	h1{
 		font-weight: 300;
-		letter-spacing: 7px;
 		h1 { font-size: 2em; }
 	}
 

@@ -1,16 +1,39 @@
-html{
-	margin-right: 20px;
-    margin-left: 20px;
-    
+@font-face
+{
+	font-family: crown; 
+	src: url('crown.ttf');
+} 
+
+html
+{    
 	font-family: -apple-system, ".SFNSDisplay-Regular", 'Helvetica Neue', 'Calibri', 'Helvetica', sans-serif;
 	font-weight: 400;
-    }
+	
+}
 
-h1{
+body
+{
+	margin: 0;
+}
+
+#content
+{
+	margin: 20px;
+}
+
+h1
+{
 	font-weight: 300;
-	letter-spacing: 7px;
-	h1 { font-size: 2em; }
-	}
+	font-size: 2em;
+	padding:15px;
+}
+	
+crown
+{
+	font-family: crown;
+	font-size: 1.25em;
+}
+
 	
 .boxed {
   border: 10px solid black;
@@ -31,147 +54,95 @@ h1{
 
 
 
+/* nav stuff */
+nav 
+{
+	width:100%;
+	display:block;
+	background: #B8B8B8;
+	text-align: center;
+	opacity: 1.0;
+}
+
+nav a
+{
+	color: #ffffff;
+	text-decoration: none;
+	padding: 15px 25px;
+	position: relative;
+	font-family: -apple-system, ".SFNSDisplay-Regular", 'Helvetica Neue', 'Calibri', 'Helvetica', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	-webkit-transition: color .25s;
+	-moz-transition: color .25s;
+	-ms-transition: color .25s;
+	-o-transition: color .25s;
+	transition: color .25s;
+	line-height: 3em;
+}
+
+nav a:hover
+{
+	color: #4C4C4C;
+}
+nav a:hover:before
+{
+	width: 100%;
+}
+
+
+/* container stuff */
+#container
+{
+	display:block;
+	position:middle;
+	border: 1px solid #bbb;
+	border-radius:5px;
+	height:2em;
+	position:relative;
+	margin: auto ;
+	width:20%;
+	background-color: #FFFFFF;
+	
+	-webkit-transition: background-color .25s;
+	-moz-transition: background-color .25s;
+	-ms-transition: background-color .25s;
+	-o-transition: background-color .25s;
+	transition: background-color .25s;
+	
+}
+#container:hover
+{
+	background-color: #F0F0F0;
+}
+
+#containerContent
+{
+	display:inline-block
+}
+
+#containerContent a
+{
+	text-decoration:none;
+	line-height: 2em;
+	color: black;
+	font-size:1em;
+}
 
 
 
-
-
-
-/* NAV STUFF */
-
-@font-face {
-   font-family: crown; 
-   src: url('crown.ttf');
+.link-spanner{
+  position:absolute; 
+  width:100%;
+  height:100%;
+  top:0;
+  left: 0;
+  z-index: 1;
 } 
 
-nav {
-  background: #B8B8B8;
-  width: 100%;
-  text-align: center;
-  opacity: 1.0
-  margin: auto;
-
-}
 
 
 
-crown{
-	font-family: crown;
-	font-size: 1.25em;
-	}
-
-
-
-nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  line-height: 1;
-  display: block;
-  zoom: 1;
-}
-nav ul:after {
-  content: " ";
-  display: block;
-  font-size: 0;
-  height: 0;
-  clear: both;
-  visibility: hidden;
-  
-}
-nav ul li {
-  display: inline-block;
-  padding: 0;
-  margin: 0;
-  
-}
-nav.align-right ul li {
-  float: right;
-}
-nav.align-center ul {
-  text-align: center;
-}
-nav ul li a {
-  color: #ffffff;
-  text-decoration: none;
-  display: block;
-  padding: 15px 25px;
-  font-family: -apple-system, ".SFNSDisplay-Regular", 'Helvetica Neue', 'Calibri', 'Helvetica', sans-serif;
-  font-weight: 400;
-  text-transform: uppercase;
-  font-size: 14px;
-  position: relative;
-  -webkit-transition: color .25s;
-  -moz-transition: color .25s;
-  -ms-transition: color .25s;
-  -o-transition: color .25s;
-  transition: color .25s;
-}
-nav ul li a:hover {
-  color: #4C4C4C;
-}
-nav ul li a:hover:before {
-  width: 100%;
-}
-nav ul li.active a:hover {
-  color: #4C4C4C;
-}
-nav ul li.active a:hover:before {
-  width: 100%;
-}
-
-
-nav ul li {
-  -webkit-transition: width .25s;
-  -moz-transition: width .25s;
-  -ms-transition: width .25s;
-  -o-transition: width .25s;
-  transition: width .25s;
-}
-nav ul li.last > a:after,
-nav ul li:last-child > a:after {
-  display: none;
-}
-nav ul li.active a {
-  color: #ffffff;
-}
-nav ul li.active a:before {
-  width: 100%;
-}
-nav.align-right li.last > a:after,
-nav.align-right li:last-child > a:after {
-  display: block;
-}
-nav.align-right li:first-child a:after {
-  display: none;
-}
-
-
-
-
-@media screen and (max-width: 1080px) {
-  nav ul li {
-    float: none;
-    display: run-in;
-  }
-  nav ul li a {
-    width: 100%;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    font-size: 1em
-  }
-  nav ul li.last > a,
-  nav ul li:last-child > a {
-    border: 0;
-  }
-  nav ul li a:after {
-    display: none;
-  }
-  nav ul li a:before {
-    display: none;
-  }
-}
 
 @media (max-width: 1080px) 
 {
