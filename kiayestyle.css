@@ -101,6 +101,7 @@ nav a:hover:before
 	height:2em;
 	position:relative;
 	margin: auto ;
+	min-width:300px;
 	width:20%;
 	background-color: #FFFFFF;
 	
