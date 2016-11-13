@@ -4,6 +4,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" charset='utf-8'>
 
 <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+<script src="jquery.slides.js"></script>
 <script src="script.js"></script>
 
 <link rel="stylesheet" type="text/css" href="kiayestyle.css">
@@ -22,9 +23,41 @@
 	<a href="downloads.html">Downloads</a>
 	<a href="more.html">More</a>
 </nav>
-<h1>Welcome to Kiayeorg!</h1>
 </div>
 
+<!--slideshow--!>
+<div class="slideshow" style="max-width:100%">
+	<div id="slides">
+    	<a href="https://itunes.apple.com/us/app/autotutor/id1085420154?ls=1&mt=8" target="_blank"><img src="Images/Slideshow/AutoTutor.png" style="width:100%"></a>
+    	<a href="https://itunes.apple.com/us/app/paperboy-assistant/id1142086445?mt=8" target="_blank"><img src="Images/Slideshow/PaperboyAssistant.png" style="width:100%"></a>
+  	</div>
+</div>
+
+<script>
+    $(function(){
+      $("#slides").slidesjs({
+        navigation: 
+        {
+      		active: false,
+        	// [boolean] Generates next and previous buttons.
+        	// You can set to false and use your own buttons.
+        	// User defined buttons must have the following:
+        	// previous button: class="slidesjs-previous slidesjs-navigation"
+        	// next button: class="slidesjs-next slidesjs-navigation"
+      		effect: "slide"
+        	// [string] Can be either "slide" or "fade".
+    	}
+      });
+  	});
+</script>
+
+
+
+<!--Social Media Buttons--!>
+<table>
+<tr>
+
+<td>
 <!--TWITTER--!>
 <div id="container" style="text-align: center;">
 	<div id="containerContent">
@@ -36,8 +69,10 @@
 		<a href="https://www.twitter.com/JustinAlexP" target="_blank"><span class="link-spanner"></span>Twitter</a>
 	</div>
 </div>
+</td>
 <br>
 
+<td>
 <!--GAB--!><!--Don't copy the Gab one as an example lol--!>
 <div id="container" style="text-align: center;">
 	<div id="containerContent">
@@ -66,8 +101,10 @@
 		<a href="https://gab.ai/JustinX" target="_blank"><span class="link-spanner"></span>Gab</a>
 	</div>
 </div>
+</td>
 <br>
 
+<td>
 <!--GITHUB--!>
 <div id="container" style="text-align: center;">
 	<div id="containerContent">
@@ -79,8 +116,10 @@
 		<a href="https://github.com/Sn0wCh1ld" target="_blank"><span class="link-spanner"></span>GitHub</a>
 	</div>
 </div>
+</td
 <br>
 
+<td>
 <!--SoundCloud--!>
 <div id="container" style="text-align: center;">
 	<div id="containerContent">
@@ -92,6 +131,9 @@
 		<a href="https://soundcloud.com/blesserman" target="_blank"><span class="link-spanner"></span>SoundCloud</a>
 	</div>
 </div>
+</td>
+</tr>
+</table>
 <br>
 
 

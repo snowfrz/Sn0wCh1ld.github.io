@@ -90,6 +90,11 @@ nav a:hover:before
 	width: 100%;
 }
 
+/*slides*/
+#slides
+{
+	display:none;
+}
 
 /* container stuff */
 #container
@@ -101,8 +106,6 @@ nav a:hover:before
 	height:2em;
 	position:relative;
 	margin: auto ;
-	min-width:300px;
-	width:20%;
 	background-color: #FFFFFF;
 	
 	-webkit-transition: background-color .25s;
@@ -143,9 +146,42 @@ nav a:hover:before
 
 
 
-
-
 @media (max-width: 1080px) 
 {
-  .button {display:flex;justify-content:center;align-items:center;padding:10px;
+  	.button {display:flex;justify-content:center;align-items:center;padding:10px;}
+  
+  	#container a
+  	{
+  		display:none;
+  	}
+  	#container
+	{
+		width:32px;
+	}
+	
+  	table
+  	{
+  		width:100%
+ 	}
+ 	
+ 	svg
+ 	{
+ 		position:absolute;
+    	top:50%;
+    	bottom:50%;
+    	transform:translate(-50%, -50%);
+ 	}
+}
+
+@media (min-width: 1080px)
+{
+	#container
+	{
+		min-width:250px;
+		width:20%;
+	}
+	table
+  	{
+  		width:100%
+ 	}
 }
