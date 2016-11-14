@@ -20,7 +20,7 @@
         effect: "slide"
       },
       pagination: {
-        active: false,
+        active: true,
         effect: "slide"
       },
       play: {
@@ -30,7 +30,7 @@
         auto: true,
         swap: false,
         pauseOnHover: false,
-        restartDelay: 2500
+        restartDelay: 0
       },
       effect: {
         slide: {
