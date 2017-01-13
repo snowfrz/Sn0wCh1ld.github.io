@@ -135,6 +135,47 @@ nav a:hover:before
 
 
 
+/* app price container stuff */
+#appPriceContainer
+{
+	display:inline-block;
+	padding-left:10px;
+	padding-right:10px;
+	position:left;
+	border-radius:10px;
+	height:2em;
+	position:relative;
+	margin: auto ;
+	background-color: #2DD100;
+	
+	-webkit-transition: background-color .25s;
+	-moz-transition: background-color .25s;
+	-ms-transition: background-color .25s;
+	-o-transition: background-color .25s;
+	transition: background-color .25s;
+	
+}
+#appPriceContainer:hover
+{
+	background-color: #209400;
+}
+
+#appPriceContainerContent
+{
+	display:inline-block
+}
+
+#appPriceContainerContent a
+{
+	text-decoration:none;
+	line-height: 2em;
+	color: black;
+	font-size:1em;
+	color:#ffffff;
+}
+
+
+
 .link-spanner{
   position:absolute; 
   width:100%;
