@@ -1158,8 +1158,8 @@ img {
   border-radius: 50%;
 }
 hr {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 30px;
+  margin-bottom:0px;
   border: 0;
   border-top: 1px solid #eee;
 }
