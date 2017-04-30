@@ -1,184 +1,135 @@
 <!DOCTYPE html>
-<head>
-<title>Kiayeorg</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" charset='utf-8'>
+<html lang="en">
+  <head>
+  	<title>Kiayeorg</title>
+    <meta charset="utf-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    
+    <link href="bootstrap.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  	<script src="bootstrap.js"></script>
+  	<script src="npm.js"></script>
+  	<script src="https://use.fontawesome.com/a2f6d19e58.js"></script>
+  </head>
+  
+  <body style="padding-top: 50px;">
+  
+  	<nav class="navbar navbar-default navbar-fixed-top" style="margin-bottom: 0px;">
+  		<div class="container">
+  			<div class="navbar-header">
+      			<a class="navbar-brand" href="index.html">
+        			<crown>◊</crown>
+      			</a>
+      			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        			<span class="icon-bar"></span>
+        			<span class="icon-bar"></span>
+        			<span class="icon-bar"></span>
+      			</button>
+    		</div>			
+			<div class="collapse navbar-collapse">
+      			<ul class="nav navbar-nav">
+      				<li><a href="apps.html">Apps</a></li>
+					<li><a href="tutorials.html">Tutorials</a></li>
+					<li><a href="downloads.html">Downloads</a></li>
+					<li><a href="more.html">More</a></li>
+      			</ul>
+    		</div>
+  		</div>
+	</nav>
+  
+  <div class="jumbotron text-center" style="margin-bottom: 0px;">
+  	<crown style="font-size: 2em;">◊</crown>
+  	<h1 style="margin-top: 0px;">Kiayeorg</h1>
+  	<h4><i>Apps That Work</i></h4>
+  	<p>2017 update construction in progress</p>
+  </div>
+  
+  <!--Slideshow--!>
+  <div id="Carousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#Carousel" data-slide-to="0" class="active"></li>
+      <li data-target="#Carousel" data-slide-to="1"></li>
+    </ol>
 
-<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
-<script src="jquery.slides.js"></script>
-<script src="script.js"></script>
+    <!-- Items -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="Images/Slideshow/AutoTutor.png" alt="AutoTutor" style="width:100%;">
+      </div>
 
-<link rel="stylesheet" type="text/css" href="kiayestyle.css">
+      <div class="item">
+        <img src="Images/Slideshow/PaperboyAssistant.png" alt="Paperboy Assistant" style="width:100%;">
+      </div>
+    </div>
 
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#Carousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a class="right carousel-control" href="#Carousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+  </div>
+<!--Slideshow over--!>
+  
+  
+  <div style="text-align: center;">
+  	<div class="container">
+  		<div class="row">
+    		<div class="col-sm-4" style="cursor: pointer; padding-top: 15px; padding-bottom: 15px;" onclick="window.location='apps.html';">
+      			<h3>iOS Apps</h3>
+      			<p>They work as intended</p>
+      			<p></p>
+    		</div>
+    		<div class="col-sm-4" style="cursor: pointer; padding-top: 15px; padding-bottom: 15px;" onclick="window.location='tutorials.html';">
+      			<h3>Tutorials</h3>
+      			<p>Take control of your devices</p>
+    		</div>
+    		<div class="col-sm-4" style="cursor: pointer; padding-top: 15px; padding-bottom: 15px;" onclick="window.location='downloads.html';">
+      			<h3>Downloads</h3> 
+      			<p>Free software for your computer</p>
+    		</div>
+  		</div>
+	</div>
+	<hr>
+	<div style="padding-bottom: 10px;">
+		<div class="container">
+  			<div class="row">
+    			<div class="col-sm-2" style="cursor: pointer; padding-top: 15px; padding-bottom: 15px;" onclick="window.open('https://twitter.com/JustinAlexP');">
+      				<i class="fa fa-twitter" aria-hidden="true" style="font-size: 2em; color: #55ACEE;"></i>
+    			</div>
+    			<div class="col-sm-2" style="cursor: pointer; padding-top: 15px; padding-bottom: 15px;" onclick="window.open('https://www.snapchat.com/add/sn0wch1ld');">
+      				<i class="fa fa-snapchat" aria-hidden="true" style="font-size: 2em; color: #FFFC00;"></i>
 
-</head>
-<body>
-<div style="text-align: center;">
-<nav>
-	<a href="index.html"><crown>◊</crown></a>
-	<a href="about.html">About</a>
-	<a href="tutorials.html">Tutorials</a>
-	<a href="http://smallcut.weebly.com/" target="_blank">Smallcut</a>
-	<a href="apps.html">Apps</a>
-	<a href="op.html">OP</a>
-	<a href="downloads.html">Downloads</a>
-	<a href="more.html">More</a>
-</nav>
-</div>
+    			</div>
+    			<div class="col-sm-2" style="cursor: pointer; padding-top: 15px; padding-bottom: 15px;" onclick="window.open('https://github.com/sn0wch1ld');">
+      				<i class="fa fa-github" aria-hidden="true" style="font-size: 2em; color: #24292E;"></i>
+    			</div>
+    			<div class="col-sm-2" style="cursor: pointer; padding-top: 15px; padding-bottom: 15px;" onclick="window.open('https://soundcloud.com/blesserman');">
+      				<i class="fa fa-soundcloud" aria-hidden="true" style="font-size: 2em; color: #FF5500;"></i>
+    			</div>
+    			<div class="col-sm-2" style="cursor: pointer; padding-top: 15px; padding-bottom: 15px;" onclick="window.open('https://www.reddit.com/r/sn0wch1ld/');">
+      				<i class="fa fa-reddit-alien" aria-hidden="true" style="font-size: 2em; color: #FF4500;"></i>
 
-<!--slideshow--!>
-<div class="slideshow" style="max-width:100%">
-	<div id="slides">
-    	<a href="https://itunes.apple.com/us/app/autotutor/id1085420154?ls=1&mt=8" target="_blank"><img src="Images/Slideshow/AutoTutor.png" style="width:100%"></a>
-    	<a href="https://itunes.apple.com/us/app/paperboy-assistant/id1142086445?mt=8" target="_blank"><img src="Images/Slideshow/PaperboyAssistant.png" style="width:100%"></a>
+    			</div>
+    			<div class="col-sm-2" style="cursor: pointer; padding-top: 15px; padding-bottom: 15px;" onclick="window.open('https://gab.ai/JustinX');">
+      				<i class="fa fa-users" aria-hidden="true" style="font-size: 2em; color: #25CC7E;"></i>
+    			</div>
+  			</div>
+		</div>
   	</div>
-</div>
-
-<style>	
-
-	.slidesjs-pagination
-	{ 
-		padding: 0; 
-		margin: 0; 
-		margin: auto;
-		text-align: center;
-		width: 100%;
-		padding-right: 0%;
-		padding-left: 0%;
-	}
-
-	.slidesjs-pagination-item 
-	{ 
-		list-style: none; 
-		float: left; 
- 		margin: auto;
-		text-align: center;
-		width: 50%;
-		padding-right: 0%;
-		padding-left: 0%;
-	}
-	
-	.slidesjs-pagination-item a 
-	{ 
-		display: block; 
-		background: #696969; 
-		padding: 0.5em 0.5em; 
-		color: #ffffff; 
-		text-decoration: none; 
-	}
-</style>
-
-<script>
-    $(function(){
-      $("#slides").slidesjs({
-        navigation: 
-        {
-      		active: false,
-        	// [boolean] Generates next and previous buttons.
-        	// You can set to false and use your own buttons.
-        	// User defined buttons must have the following:
-        	// previous button: class="slidesjs-previous slidesjs-navigation"
-        	// next button: class="slidesjs-next slidesjs-navigation"
-      		effect: "slide"
-        	// [string] Can be either "slide" or "fade".
-    	}
-      });
-  	});
-</script>
-
-
-
-<!--Social Media Buttons--!>
-<table>
-<tr>
-
-<td>
-<!--TWITTER--!>
-<div id="container" style="text-align: center;">
-	<div id="containerContent">
-		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 1625" height=0.73em>
-			<path
-    			d="m 1999.9999,192.4 c -73.58,32.64 -152.67,54.69 -235.66,64.61 84.7,-50.78 149.77,-131.19 180.41,-227.01 -79.29,47.03 -167.1,81.17 -260.57,99.57 C 1609.3399,49.82 1502.6999,0 1384.6799,0 c -226.6,0 -410.328,183.71 -410.328,410.31 0,32.16 3.628,63.48 10.625,93.51 -341.016,-17.11 -643.368,-180.47 -845.739,-428.72 -35.324,60.6 -55.5583,131.09 -55.5583,206.29 0,142.36 72.4373,267.95 182.5433,341.53 -67.262,-2.13 -130.535,-20.59 -185.8519,-51.32 -0.039,1.71 -0.039,3.42 -0.039,5.16 0,198.803 141.441,364.635 329.145,402.342 -34.426,9.375 -70.676,14.395 -108.098,14.395 -26.441,0 -52.145,-2.578 -77.203,-7.364 52.215,163.008 203.75,281.649 383.304,284.946 -140.429,110.062 -317.351,175.66 -509.5972,175.66 -33.1211,0 -65.7851,-1.949 -97.8828,-5.738 181.586,116.4176 397.27,184.359 628.988,184.359 754.732,0 1167.462,-625.238 1167.462,-1167.47 0,-17.79 -0.41,-35.48 -1.2,-53.08 80.1799,-57.86 149.7399,-130.12 204.7499,-212.41"
-    			style="fill:#00aced"/>
-		</svg>
-		<a href="https://www.twitter.com/JustinAlexP" target="_blank"><span class="link-spanner"></span>Twitter</a>
+  </div>
+  <hr>
+  </body>
+  <footer style="padding-top: 10px; padding-bottom: 10px;">
+	<div style="text-align:center;">
+	<font color="grey">Copyright © 2014 - 2017 Kiayeorg</font>
 	</div>
-</div>
-</td>
-<br>
-
-<td>
-<!--GAB--!><!--Don't copy the Gab one as an example lol--!>
-<div id="container" style="text-align: center;">
-	<div id="containerContent">
-		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -40 900 700" height=0.85em>
-			<path d="M238 718 c50 -24 72 -60 72 -119 0 -33 -6 -47 -34 -75 -29 -29 -41
-					-34 -79 -34 -53 0 -93 27 -113 77 -8 18 -16 33 -18 33 -9 0 14 -64 29 -80 9
-					-10 15 -36 15 -71 0 -74 34 -143 99 -201 77 -70 143 -92 271 -92 97 -1 110 2
-					170 30 125 59 191 145 196 257 2 37 10 69 23 91 12 18 21 42 20 52 0 12 -5 6
-					-13 -15 -26 -72 -105 -103 -175 -66 -31 15 -61 69 -61 107 0 36 35 85 77 107
-					36 19 37 20 11 21 -39 0 -79 -17 -114 -51 -66 -63 -212 -66 -263 -5 -23 27
-					-87 56 -123 56 l-33 -1 43 -21z m277 -228 c0 -23 -69 -21 -73 2 -3 14 4 17 35
-					15 26 -1 38 -7 38 -17z m78 -52 c113 -17 102 -32 -37 -47 -67 -8 -217 1 -253
-					14 -28 10 -10 23 45 33 82 14 156 14 245 0z" 
-					style="fill:#25CC7E"
-					transform="translate(0,800) scale(1, -1)"/>
-			<path d="M177 639 c-22 -13 -22 -58 -1 -66 39 -15 73 46 37 65 -12 7 -25 7
-					-36 1z" 
-					style="fill:#25CC7E"
-					transform="translate(0,800) scale(1, -1)"/>
-			<path d="M747 639 c-24 -14 -22 -56 3 -64 25 -8 50 10 50 36 0 24 -30 40 -53
-					28z"
-					style="fill:#25CC7E"
-					transform="translate(0,800) scale(1, -1)"/>
-					
-		</svg>
-		<a href="https://gab.ai/JustinX" target="_blank"><span class="link-spanner"></span>Gab</a>
-	</div>
-</div>
-</td>
-<br>
-
-<td>
-<!--GITHUB--!>
-<div id="container" style="text-align: center;">
-	<div id="containerContent">
-		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0.1 20 18" height=0.85em>
-			<path
-    			d="M13.18 11.31c-.718 0-1.3.806-1.3 1.798 0 .994.582 1.8 1.3 1.8s1.3-.806 1.3-1.8c0-.992-.582-1.8-1.3-1.8zm4.526-4.684c.15-.365.155-2.44-.635-4.426 0 0-1.81.2-4.55 2.08-.575-.16-1.548-.238-2.52-.238s-1.944.078-2.52.238C4.74 2.4 2.93 2.2 2.93 2.2c-.79 1.987-.782 4.06-.635 4.426C1.367 7.634.8 8.846.8 10.496c0 7.187 5.963 7.302 7.467 7.302L10 17.8l1.733-.002c1.506 0 7.467-.115 7.467-7.3 0-1.653-.566-2.864-1.494-3.872zm-7.678 10.29h-.056c-3.77 0-6.71-.45-6.71-4.116 0-.88.31-1.693 1.048-2.37 1.227-1.126 3.305-.53 5.662-.53H10.028c2.357 0 4.436-.596 5.664.53.735.677 1.045 1.49 1.045 2.37 0 3.666-2.937 4.115-6.71 4.115zM6.82 11.308c-.717 0-1.3.806-1.3 1.798 0 .994.583 1.8 1.3 1.8.72 0 1.302-.806 1.302-1.8 0-.992-.582-1.8-1.3-1.8z"
-    			style="fill:#00000"/>
-		</svg>
-		<a href="https://github.com/Sn0wCh1ld" target="_blank"><span class="link-spanner"></span>GitHub</a>
-	</div>
-</div>
-</td
-<br>
-
-<td>
-<!--SoundCloud--!>
-<div id="container" style="text-align: center;">
-	<div id="containerContent">
-		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 24" height=0.75em>
-			<path
-    			d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2.709 15h-.541v-4.4c.167-.126.347-.234.541-.309v4.709zm1.625 0h.543v-5.031c-.125.145-.24.299-.337.468l-.206-.101v4.664zm-1.082 0h.541v-4.826c-.274-.043-.337-.027-.541-.005v4.831zm-2.168 0h.543v-3.829c-.17.25-.302.529-.375.836l-.168-.099v3.092zm-1.625-2.863c-.329.298-.541.738-.541 1.236 0 .499.212.938.541 1.238v-2.474zm10.227-.366c-.11-1.548-1.302-2.771-2.772-2.771-.554 0-1.064.179-1.496.479v5.521h4.924c.87 0 1.576-.76 1.576-1.695 0-1.218-1.174-2.056-2.232-1.534zm-9.143-.016c-.163-.014-.285-.017-.541.066v3.103c.241.078.345.076.541.076v-3.245z"
-    			style="fill:#FF9D00"/>
-		</svg>
-		<a href="https://soundcloud.com/blesserman" target="_blank"><span class="link-spanner"></span>SoundCloud</a>
-	</div>
-</div>
-</td>
-</tr>
-</table>
-<br>
-
-
-
-</body>
-<br>
-<footer>
-<div style="text-align:center">
-<font color="grey">Copyright © 2014 - 2017 Kiayeorg</font>
-</div>
-<br>
-<div align="center"><a href="http://www.amazingcounters.com" target="_blank"><img border="0" src="http://cc.amazingcounters.com/counter.php?i=3166784&c=9500665" alt="AmazingCounters.com"></a>
-<br><br>
+	<br>
+	<div align="center"><a href="http://www.amazingcounters.com" target="_blank"><img border="0" src="http://cc.amazingcounters.com/counter.php?i=3166784&c=9500665" alt="AmazingCounters.com"></a>
+	<br><br>
+  </footer>
+  	
+  
 </html>
