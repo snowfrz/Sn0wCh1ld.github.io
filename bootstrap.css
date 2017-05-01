@@ -25,6 +25,15 @@ crown
 	font-size: 1em;
 }
 
+.icon 
+{
+  width: 130px;
+  height: 130px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  overflow: hidden;
+}
 
 article,
 aside,
