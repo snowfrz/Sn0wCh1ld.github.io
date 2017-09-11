@@ -5,7 +5,7 @@
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
-  font-family: -apple-system, ".SFNSDisplay-Regular", 'Helvetica Neue', 'Calibri', 'Helvetica', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, ".SFNSDisplay-Regular", 'Helvetica Neue', 'Calibri', 'Helvetica', sans-serif;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
