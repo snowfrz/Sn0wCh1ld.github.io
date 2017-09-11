@@ -1109,7 +1109,7 @@ body {
   font-size: 14px;
   line-height: 1.42857143;
   color: #333;
-  background-color: #fff;
+  background-color: #FFFFFF;
 }
 input,
 button,
@@ -3655,7 +3655,8 @@ tbody.collapse.in {
   bottom: 100%;
   margin-bottom: 2px;
 }
-@media (min-width: 768px) {
+@media (min-width: 768px) 
+{
   .navbar-right .dropdown-menu {
     right: 0;
     left: auto;
