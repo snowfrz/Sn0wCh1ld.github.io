@@ -1,2 +1,2 @@
-## Kiayeorg
-Homepage of Kiayeorg. Many projects are hosted here.
+## Royal
+Homepage of Royal. Many projects are hosted here.
