@@ -9,6 +9,12 @@ html {
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
+
+.counter
+{
+  opacity: 0;
+}
+
 body {
   margin: 0;
 }
@@ -1108,8 +1114,8 @@ body {
   font-family: -apple-system, ".SFNSDisplay-Regular", 'Helvetica Neue', 'Calibri', 'Helvetica', sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
-  color: #333;
-  background-color: #FFFFFF;
+  color: #cfcfcf;
+  background-color: #0d0d0d;
 }
 input,
 button,
@@ -1170,7 +1176,7 @@ hr {
   margin-top: 20px;
   margin-bottom: 20px;
   border: 0;
-  border-top: 1px solid #eee;
+  border-top: 1px solid #404040;
 }
 .sr-only {
   position: absolute;
@@ -4614,7 +4620,6 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 }
 .navbar-inverse {
   background-color: #222;
-  border-color: #080808;
 }
 .navbar-inverse .navbar-brand {
   color: #9d9d9d;
@@ -4984,7 +4989,7 @@ a.badge:focus {
   padding-bottom: 30px;
   margin-bottom: 30px;
   color: inherit;
-  background-color: #eee;
+  background-color: #363636;
 }
 .jumbotron h1,
 .jumbotron .h1 {
