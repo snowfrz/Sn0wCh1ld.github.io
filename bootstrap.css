@@ -21,24 +21,14 @@ body {
 
 @font-face
 {
-	font-family: crown; 
+	font-family: crown;
 	src: url('crown.ttf');
-} 
+}
 
 crown
 {
 	font-family: crown;
 	font-size: 1em;
-}
-
-.icon 
-{
-  width: 130px;
-  height: 130px;
-  -webkit-border-radius: 30px;
-  -moz-border-radius: 30px;
-  border-radius: 30px;
-  overflow: hidden;
 }
 
 article,
@@ -1128,11 +1118,6 @@ textarea {
 a {
   color: #337ab7;
   text-decoration: none;
-}
-a:hover,
-a:focus {
-  color: #23527c;
-  text-decoration: underline;
 }
 a:focus {
   outline: 5px auto -webkit-focus-ring-color;
@@ -3661,7 +3646,7 @@ tbody.collapse.in {
   bottom: 100%;
   margin-bottom: 2px;
 }
-@media (min-width: 768px) 
+@media (min-width: 768px)
 {
   .navbar-right .dropdown-menu {
     right: 0;

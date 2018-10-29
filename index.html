@@ -1,146 +1,124 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-  	<title>Royal Apps</title>
-    <meta charset="utf-8"> 
+    <meta charset="utf-8">
+    <title>Royal Apps</title>
+
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    
-    <link href="bootstrap.css" rel="stylesheet">
+
+    <link href="http://localhost:4000/bootstrap.css" rel="stylesheet">
+    <link href="http://localhost:4000/royal.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  	<script src="bootstrap.js"></script>
-  	<script src="npm.js"></script>
+  	<script src="http://localhost:4000/bootstrap.js"></script>
+  	<script src="http://localhost:4000/npm.js"></script>
   	<script src="https://use.fontawesome.com/a2f6d19e58.js"></script>
   </head>
-  
   <body style="padding-top: 50px;">
-  
-  	<nav class="navbar navbar-inverse navbar-fixed-top" style="margin-bottom: 0px;">
-  		<div class="container">
-  			<div class="navbar-header">
-      			<a class="navbar-brand" href="index.html">
-        			<crown>◊</crown>
-      			</a>
-      			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-        			<span class="icon-bar"></span>
-        			<span class="icon-bar"></span>
-        			<span class="icon-bar"></span>
-      			</button>
-    		</div>			
-			<div class="collapse navbar-collapse">
-      			<ul class="nav navbar-nav">
-      				<li><a href="apps.html">Apps</a></li>
-					<li><a href="tutorials.html">Tutorials</a></li>
-					<li><a href="downloads.html">Downloads</a></li>
-					<li><a href="more.html">More</a></li>
-      			</ul>
-    		</div>
-  		</div>
-	</nav>
-  
-  <!-- Notice header --!>
-  <!--
-  <div class="jumbotron text-center" style="margin-bottom: 0px;">
-  	<crown style="font-size: 2em;">◊</crown>
-  	<h1 style="margin-top: 0px;">Royal</h1>
-  	<h4><i>Apps That Work</i></h4>
-  	<p>Notice</p>
+    <!-- Navigation Bar -->
+<nav class="navbar navbar-inverse navbar-fixed-top" style="margin-bottom: 0px;">
+  <div class="container">
+    <div class="navbar-header">
+        <a class="navbar-brand" href="http://localhost:4000/index.html">
+          <crown>◊</crown>
+        </a>
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+    </div>
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="http://localhost:4000/apps.html">Apps</a></li>
+        <li><a href="http://localhost:4000/tutorials.html">Tutorials</a></li>
+        <li><a href="http://localhost:4000/downloads.html">Downloads</a></li>
+        <!--<li><a href="http://localhost:4000/more.html">More</a></li>-->
+      </ul>
+    </div>
   </div>
-  --!>
-  
-  <!--Slideshow--!>
-  <div id="Carousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#Carousel" data-slide-to="0" class="active"></li>
-      <li data-target="#Carousel" data-slide-to="1"></li>
-      <li data-target="#Carousel" data-slide-to="2"></li>
-      <li data-target="#Carousel" data-slide-to="3"></li>
-    </ol>
+</nav>
 
-    <!-- Items -->
-    <div class="carousel-inner">
-      <div class="item active">
-        <a href="https://itunes.apple.com/us/app/impeached-be-the-president/id1289067948?mt=8" target="_blank"><img src="Images/Slideshow/Impeached.png" alt="Impeached" style="width:100%;"></a>
-      </div>
-      
-      <div class="item">
-        <a href="https://itunes.apple.com/us/app/speed-math/id1267366389?ls=1&mt=8" target="_blank"><img src="Images/Slideshow/SpeedMath.png" alt="Speed Math" style="width:100%;"></a>
-      </div>
-      
-      <div class="item">
-        <a href="https://itunes.apple.com/us/app/paperboy-assistant/id1142086445?mt=8" target="_blank"><img src="Images/Slideshow/PaperboyAssistant.png" alt="Paperboy Assistant" style="width:100%;"></a>
-      </div>
-      
-      <div class="item">
-        <a href="https://itunes.apple.com/us/app/autotutor/id1085420154?mt=8" target="_blank"><img src="Images/Slideshow/AutoTutor.png" alt="AutoTutor" style="width:100%;"></a>
-      </div>
+
+    <div style="text-align: center; background-color: #141414">
+      <!-- logo/slogan and promo iPhones-->
+<div class="header" style="user-select: none; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none;">
+  <div class="col-sm-4" style="padding:15px">
+      <img src="images/phonesleft.png" style="width:100%;">
+  </div>
+  <div class="col-sm-4" style="padding:15px;">
+      <img src="images/logoandslogan.png" style="width:65%;">
+  </div>
+  <div class="col-sm-4" style="padding:15px;">
+      <img src="images/phonesright.png" style="width:100%;">
+  </div>
+</div>
+
+<!-- main links-->
+<div style="text-align: center;">
+    <div style="width:100%" class="container">
+        <div class="row" style="user-select: none; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none;">
+            <div class="col-sm-4" id="link" style="cursor: pointer; padding-top: 15px; padding-bottom: 25px; background-color: #141414" onclick="window.location='apps.html';">
+                <h3>iOS Apps</h3>
+                <p>They work as intended</p>
+                <p></p>
+            </div>
+            <div class="col-sm-4" id="link" style="cursor: pointer; padding-top: 15px; padding-bottom: 25px; background-color: #181818;" onclick="window.location='tutorials.html';">
+                <h3>Tutorials</h3>
+                <p>Take control of your devices</p>
+            </div>
+            <div class="col-sm-4" id="link" style="cursor: pointer; padding-top: 15px; padding-bottom: 25px; background-color: #141414" onclick="window.location='downloads.html';">
+                <h3>Downloads</h3>
+                <p>Free software for your computer</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Product Promos -->
+<div style="text-align: center; width:100%;">
+    
+        <a href="https://itunes.apple.com/us/app/impeached-be-the-president/id1289067948?mt=8" target="_blank">
+            <div style="background-color: #1ddfcd;">
+                <img src="/images/promo/impeached.png" class="promo">
+                
+            </div>
+        <a>
+    
+</div>
+
     </div>
 
-    <!-- Left and right controls -->
-    <a class="left carousel-control" href="#Carousel" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left"></span>
-    </a>
-    <a class="right carousel-control" href="#Carousel" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right"></span>
-    </a>
-  </div>
-<!--Slideshow over -->
-  
-  
-  <div style="text-align: center;">
-  	<div style="background-color: #141414; width:100%; padding-bottom:10px;" class="container">
-  		<div class="row" style="user-select: none; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none;">
-    		<div class="col-sm-4" style="cursor: pointer; padding-top: 15px; padding-bottom: 15px;" onclick="window.location='apps.html';">
-      			<h3>iOS Apps</h3>
-      			<p>They work as intended</p>
-      			<p></p>
-    		</div>
-    		<div class="col-sm-4" style="cursor: pointer; padding-top: 15px; padding-bottom: 15px;" onclick="window.location='tutorials.html';">
-      			<h3>Tutorials</h3>
-      			<p>Take control of your devices</p>
-    		</div>
-    		<div class="col-sm-4" style="cursor: pointer; padding-top: 15px; padding-bottom: 15px;" onclick="window.location='downloads.html';">
-      			<h3>Downloads</h3> 
-      			<p>Free software for your computer</p>
-    		</div>
-  		</div>
-	</div>
-	<br>
-	<div style="padding-bottom: 10px;">
-		<div class="container">
-  			<div class="row">
-    			<div class="col-xs-2" style="cursor: pointer; padding-top: 15px; padding-bottom: 10px;" onclick="window.open('https://twitter.com/JustinAlexP');">
-      				<i class="fa fa-twitter" aria-hidden="true" style="font-size: 2em; color: #55ACEE;"></i>
-    			</div>
-    			<div class="col-xs-2" style="cursor: pointer; padding-top: 15px; padding-bottom: 10px;" onclick="window.open('https://www.snapchat.com/add/sn0wch1ld');">
-      				<i class="fa fa-snapchat" aria-hidden="true" style="font-size: 2em; color: #FFFC00;"></i>
+    <!-- Social Media-->
+    <div class="container">
+    <div class="row social" style="text-align: center;">
+      <div class="col-xs-2" style="cursor: pointer; padding-top: 15px; padding-bottom: 15px;" onclick="window.open('https://twitter.com/JustinAlexP');">
+          <i class="fa fa-twitter" aria-hidden="true" style="font-size: 2em; color: #55ACEE;"></i>
+      </div>
+      <div class="col-xs-2" style="cursor: pointer; padding-top: 15px; padding-bottom: 15px;" onclick="window.open('https://www.snapchat.com/add/sn0wch1ld');">
+          <i class="fa fa-snapchat" aria-hidden="true" style="font-size: 2em; color: #FFFC00;"></i>
+      </div>
+      <div class="col-xs-2" style="cursor: pointer; padding-top: 15px; padding-bottom: 15px;" onclick="window.open('https://github.com/sn0wch1ld');">
+          <i class="fa fa-github" aria-hidden="true" style="font-size: 2em; color: #d6d6d6;"></i>
+      </div>
+      <div class="col-xs-2" style="cursor: pointer; padding-top: 15px; padding-bottom: 15px;" onclick="window.open('https://soundcloud.com/jponthetrack');">
+          <i class="fa fa-soundcloud" aria-hidden="true" style="font-size: 2em; color: #FF5500;"></i>
+      </div>
+      <div class="col-xs-2" style="cursor: pointer; padding-top: 15px; padding-bottom: 15px;" onclick="window.open('https://www.reddit.com/r/sn0wch1ld/');">
+          <i class="fa fa-reddit-alien" aria-hidden="true" style="font-size: 2em; color: #FF4500;"></i>
+      </div>
+      <div class="col-xs-2" style="cursor: pointer; padding-top: 15px; padding-bottom: 15px;" onclick="window.open('https://www.youtube.com/channel/UCWPdgICb5oSWVoMNNNSYfgg');">
+          <i class="fa fa-youtube" aria-hidden="true" style="font-size: 2em; color: #ff3d3d;"></i>
+      </div>
+    </div>
+</div>
 
-    			</div>
-    			<div class="col-xs-2" style="cursor: pointer; padding-top: 15px; padding-bottom: 10px;" onclick="window.open('https://github.com/sn0wch1ld');">
-      				<i class="fa fa-github" aria-hidden="true" style="font-size: 2em; color: #d6d6d6;"></i>
-    			</div>
-    			<div class="col-xs-2" style="cursor: pointer; padding-top: 15px; padding-bottom: 10px;" onclick="window.open('https://soundcloud.com/jponthetrack');">
-      				<i class="fa fa-soundcloud" aria-hidden="true" style="font-size: 2em; color: #FF5500;"></i>
-    			</div>
-    			<div class="col-xs-2" style="cursor: pointer; padding-top: 15px; padding-bottom: 10px;" onclick="window.open('https://www.reddit.com/r/sn0wch1ld/');">
-      				<i class="fa fa-reddit-alien" aria-hidden="true" style="font-size: 2em; color: #FF4500;"></i>
-    			</div>
-    			<div class="col-xs-2" style="cursor: pointer; padding-top: 15px; padding-bottom: 10px;" onclick="window.open('https://gab.ai/JustinX');">
-      				<i class="fa fa-users" aria-hidden="true" style="font-size: 2em; color: #25CC7E;"></i>
-    			</div>
-  			</div>
-		</div>
-  	</div>
-  </div>
-	</body>
-	<br>
-	<footer style="padding-top: 10px; padding-bottom: 10px; background-color: #141414; width:100%;">
+  </body>
+  <footer style="padding-top: 10px; padding-bottom: 10px; background-color: #141414; width:100%;">
 		<br>
-		<div style="text-align:center;">
-			<font color="grey">Copyright © 2014 - 2018 Royal Apps</font>
-		</div>
-		<div class="counter" align="center"><a href="http://www.amazingcounters.com" target="_blank"><img border="0" src="http://cc.amazingcounters.com/counter.php?i=3166784&c=9500665" alt="AmazingCounters.com"></a>
+<div style="text-align:center;" class="footertext">
+  <font color="grey" class="footertext">Copyright © 2014 - 2018 Royal Apps</font>
+</div>
+<div class="counter" align="center"><a href="http://www.amazingcounters.com" target="_blank"><img border="0" src="http://cc.amazingcounters.com/counter.php?i=3166784&c=9500665" alt="AmazingCounters.com"></a>
+
 	</footer>
-  	
-  
 </html>
