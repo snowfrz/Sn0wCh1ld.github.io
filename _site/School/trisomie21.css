@@ -1,0 +1,26 @@
+
+
+
+	#sources {
+    	word-wrap: break-word;
+	}
+	
+	
+	
+	
+
+	
+	/* NAV STUFF */
+
+@font-face {
+   font-family: crown; 
+   src: url('../crown.ttf');
+} 
+
+
+
+crown{
+	font-family: crown;
+	font-size: 1.25em;
+	}
+

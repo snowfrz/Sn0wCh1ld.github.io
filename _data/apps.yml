@@ -1,0 +1,65 @@
+- name: "Impeached: Be The President"
+  tagline: The USA will never be the same
+  description: |
+    <p>In a surprise victory, you have been elected President. Now, it is up to you to push your morals and values upon hundreds of millions of people. What will be the fate of the United States of America?</p>
+    <p>Create laws, grant and revoke freedoms, become corrupt, and yell at your enemies on Twitter. Oh yeah, and play lots of golf, because what else could a President have to do?</p>
+    <p>How long can you stay in power?</p>
+    <p>Note: This game is satire, and is not necessarily 100% factually accurate.</p>
+  icon: /images/icons/impeachedicon.png
+  link: https://itunes.apple.com/us/app/impeached-be-the-president/id1289067948?mt=8
+  price: "Free"
+- name: Speed Math
+  tagline: Turning mental math into a game
+  description: |
+    <p>Mental math is a skill everyone uses to quickly solve everyday operations. Whether it is adding up the prices for the items in your shopping cart or figuring out how to split slices of pizza between you and your friends, small and fast calculations are needed all the time.</p>
+    <p>However, acquiring good mental math skills can be long and boring. No kid wants to sit around and memorize their times tables or do sheets of addition pages, so why not turn the whole thing into a game instead?</p>
+    <p>Quickly calculate the operations Speed Math throws at you! The faster you solve the problem, the more points you get. Compete with your friends to see who can become the Speed Math champion, all while building up a useful skill for the future.</p>
+    <p>Note: Speed Math requires iOS 10. Any device that supports iOS 10 is compatible with Speed Math.</p>
+  icon: /images/icons/speedmathicon.png
+  link: https://itunes.apple.com/us/app/speed-math/id1267366389?ls=1&mt=8
+  price: "Free"
+- name: Paperboy Assistant
+  tagline: Deliver like a pro
+  description: |
+    <p>Paperboy Assistant is an app designed to help make newspaper delivery easier. Whether you're a carrier or just substituting for one, Paperboy Assistant can make your life much easier.</p>
+    <p>Originally designed to help make the process of sending information to a substitute carrier easier, Paperboy Assistant now handles virtually every information aspect of the paper delivery experience. It does everything from reminding you of customers on vacation to guiding you through your collection. Made for paperboys, by paperboys.</p>
+    <p>Features include:</p>
+    <ul>
+    <li>Easy route sharing with substitute carriers</li>
+    <li>Easy viewing of customer information</li>
+    <li>Easy tracking of vacation status</li>
+    <li>Push notifications to remind you of customers on vacation</li>
+    <li>Automatic collection managing</li>
+    <li>Flexible route ordering</li>
+    <li>Collection Time Freeze</li>
+    <li>Many more!</li>
+    </ul>
+    Note: While any device running iOS 9.0 or higher can run Paperboy Assistant, it is highly recommended to use iPhone 5 or newer, iPod touch (6th generation) or newer or iPad (4th generation) or newer.
+  icon: /images/icons/paperboyassistanticon.png
+  link: https://itunes.apple.com/us/app/paperboy-assistant/id1142086445?mt=8
+  price: "$0.99"
+- name: AutoTutor
+  tagline: Taking learning to the next level
+  description: |
+    <p>AutoTutor is a math practicing app designed to help students in grades 1 - 8 improve their math skills.</p>
+    <p>It can be used by students to practice at home or on the go, or in class by teachers wanting to make use of technology to make math a more interesting and interactive experience.</p>
+    <p>Some great AutoTutor features:</p>
+    <ul>
+    <li>360 great questions included with the app</li>
+    <li>Over 80 quality graphics bundled with the app used to complement a number of the questions to help students visualize what is required</li>
+    <li>Very low price point</li>
+    <li>One-time cost</li>
+    <li>Free updates will improve the app in the future</li>
+    <li>More questions will come in the future, increasing the question number to an even higher number</li>
+    <li>Great explanations to help students understand math concepts</li>
+    <li>Tap a question to have it read aloud to you</li>
+    <li>Math is calculated by the DDMathParser framework by Dave DeLong, a well-known and trusted framework</li>
+    </ul>
+    <br>
+    <h5>Note for educators</h5>
+    <br>
+    <p>If you're a teacher, tutor, parent or other educator, the Tutor Codes may be useful to you. They give you more freedom to choose what you can do with AutoTutor, including unlocking all the levels immediately. If you are interested, you can purchase them using the button below.</p>
+    <div style="text-align: center"><a href="https://sellfy.com/p/HFgk/" id="HFgk" class="sellfy-buy-button">Buy now</a><script type="text/javascript" src="https://sellfy.com/js/api_buttons.js"></script></div>
+  icon: /images/icons/autotutoricon.png
+  link: https://itunes.apple.com/us/app/autotutor/id1085420154?ls=1&mt=8
+  price: "$0.99"
