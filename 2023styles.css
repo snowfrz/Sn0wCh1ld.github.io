@@ -117,6 +117,7 @@ crown {
     align-content: center;
     max-width: 1200px;
     margin: auto;
+    padding: 50px 0;
 }
 
 .productEntry {
@@ -124,7 +125,7 @@ crown {
     margin: 30px;
     background-color: rgba(255, 255, 255, 0.371);
     border-radius: 70px;
-    box-shadow: #14141474 0px 20px 30px;
+    box-shadow: #1414143b 0px 10px 30px;
 }
 
 .productTitle {
@@ -154,7 +155,6 @@ crown {
 
 .metadataRight {
     margin: auto;
-    flex-grow: 1;
 }
 
 .metadataRight p {
@@ -177,4 +177,42 @@ crown {
     background-color: #754f97;
     transition: background-color 0.15s ease-in;
     cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    .productMetadata {
+        display: block;
+    }
+    
+    .downloadButton {
+        margin-bottom: 20px;
+        width: 100px;
+        max-width: 100%;
+        font-size: 1.25em;
+        padding: 0 20px;
+    }
+    
+    .appIcon {
+        margin: 0;
+    }
+
+    .metadataRight p {
+        margin: 10px 0;
+    }
+
+    .metadataRight h2 {
+        margin: 10px 0;
+    }
+
+    .productsArea {
+        padding: 0;
+    }
+
+    .productEntry {
+        padding: 50px 30px;
+        margin: 30px 0;
+        background-color: rgba(255, 255, 255, 0.371);
+        border-radius: 0;
+        box-shadow: #1414143b 0px 10px 30px;
+    }
 }
