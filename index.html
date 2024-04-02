@@ -9,6 +9,12 @@
 
   <link href="2023styles.css" rel="stylesheet">
   <link href="royal.css" rel="stylesheet">
+
+  <script>
+    window.onload = () => {
+      document.getElementById("currentYear").innerHTML = new Date().getFullYear().toString();
+    }
+  </script>
 </head>
 
 <body>
@@ -147,8 +153,7 @@
 </body>
 <footer style="margin: 30px">
   <div style="text-align:center;" class="footertext">
-    <p style="color: rgba(255, 255, 255, 0.242); font-weight: bold;" class="footertext">Copyright © 2014-2023 Royal
-      Apps</p>
+    <p style="color: rgba(255, 255, 255, 0.242); font-weight: bold;" class="footertext">Copyright © 2014-<span id="currentYear"></span> Royal Apps</p>
   </div>
   <div class="counter" align="center"><a href="http://www.amazingcounters.com" target="_blank"><img border="0"
         src="http://cc.amazingcounters.com/counter.php?i=3166784&c=9500665" alt="AmazingCounters.com"></a>
