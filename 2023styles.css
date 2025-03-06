@@ -194,6 +194,10 @@ crown {
     box-sizing: border-box;
 }
 
+.screenshotArea a {
+    text-decoration: none;
+}
+
 .screenshotArea::-webkit-scrollbar {
     display: none;
 }
