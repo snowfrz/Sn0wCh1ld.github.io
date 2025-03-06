@@ -121,11 +121,13 @@ crown {
 }
 
 .productEntry {
-    padding: 50px;
+    padding: 50px 0;
     margin: 30px;
     background-color: rgba(255, 255, 255, 0.371);
     border-radius: 70px;
     box-shadow: #1414143b 0px 10px 30px;
+    min-width: 0;
+    max-width: 100%;
 }
 
 .productTitle {
@@ -134,10 +136,12 @@ crown {
 
 .productMetadata {
     display: flex;
+    max-width: 100%;
+    margin: 0 50px;
 }
 
 .metadataLeft {
-    margin: auto;
+    margin: 5px 0;
     flex-shrink: 0;
 }
 
@@ -179,9 +183,21 @@ crown {
     cursor: pointer;
 }
 
-@media (max-width: 600px) {
+.screenshotArea {
+    display: inline-block; 
+    width: 100%; 
+    margin: auto; 
+    text-align: center; 
+    overflow-x: scroll; 
+    white-space: nowrap;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+
+@media (max-width: 700px) {
     .productMetadata {
         display: block;
+        margin: 0 30px;
     }
     
     .downloadButton {
@@ -209,7 +225,7 @@ crown {
     }
 
     .productEntry {
-        padding: 50px 30px;
+        padding: 50px 0;
         margin: 30px 0;
         background-color: rgba(255, 255, 255, 0.371);
         border-radius: 0;
