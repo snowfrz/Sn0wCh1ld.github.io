@@ -194,6 +194,10 @@ crown {
     box-sizing: border-box;
 }
 
+.screenshotArea::-webkit-scrollbar {
+    display: none;
+}
+
 @media (max-width: 700px) {
     .productMetadata {
         display: block;
