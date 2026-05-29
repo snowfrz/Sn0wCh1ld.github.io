@@ -59,7 +59,7 @@ crown {
     background-position: center;
     background-size: cover;
     text-align: center;
-    padding: 50px;
+    padding: 25px;
     box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 20px;
     height: 500px;
     display: flex;
@@ -78,12 +78,25 @@ crown {
     user-select: none;
 }
 
+.headerTextContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(149, 149, 149, 0.75);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    width: fit-content;
+    border-radius: 24px;
+    padding: 16px 24px;
+}
+
 .headerText {
     font-weight: bold;
-    font-size: 3em;
+    font-size: 2.5em;
     color: white;
-    margin: 20px 0 0 0;
-    text-shadow: 0px 0px 5px rgb(255, 101, 240);
+    margin: 0;
+    margin-top: -5px;
+    text-shadow: 0px 0px 5px #ffb619;
     text-align: center;
 }
 
