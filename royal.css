@@ -1,3 +1,263 @@
+html {
+    font-family: -apple-system, BlinkMacSystemFont, ".SFNSDisplay-Regular", 'Helvetica Neue', 'Calibri', 'Helvetica', sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    background-color: #754f97;
+}
+
+p {
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+.counter {
+    display: none;
+}
+
+body {
+    margin: 0;
+}
+
+@font-face {
+    font-family: crown;
+    src: url('crown.ttf');
+}
+
+crown {
+    font-family: crown;
+    font-size: 2em;
+}
+
+.crown {
+    text-decoration: none;
+    color: white;
+    transition: color 0.15s ease-in;
+}
+
+.crown:hover {
+    text-decoration: none;
+    color: rgb(207, 207, 207);
+    transition: color 0.15s ease-in;
+}
+
+.crownContainer {
+    padding: 20px;
+    position: absolute;
+    opacity: 30%;
+}
+
+.headerArea {
+    background-image: url('images/2026header.jpg');
+    background-color: radial-gradient(circle, #8c64af, #2d0e44);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 25px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 20px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.noselect {
+    pointer-events: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.headerTextContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(149, 149, 149, 0.75);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    width: fit-content;
+    border-radius: 24px;
+    padding: 16px 24px;
+}
+
+.headerText {
+    font-weight: bold;
+    font-size: 2.5em;
+    color: white;
+    margin: 0;
+    margin-top: -5px;
+    text-shadow: 0px 0px 5px #ffb619;
+    text-align: center;
+}
+
+.textIntroArea {
+    color: white;
+    padding: 30px;
+    background-color: #141414;
+    transition: color 0.15s ease-in;
+}
+
+.textIntroArea a {
+    color: #00b7ff;
+    transition: color 0.15s ease-in;
+}
+
+.textIntroArea a:hover {
+    color: #00b7ff73;
+}
+
+.appIcon {
+    display: block;
+    max-height: 100px;
+    max-width: 100%;
+    margin: auto;
+    border-radius: 22.5%;
+}
+
+.productsArea {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 50px 0;
+}
+
+.productEntry {
+    padding: 50px 0;
+    margin: 30px;
+    background-color: rgba(255, 255, 255, 0.371);
+    border-radius: 70px;
+    box-shadow: #1414143b 0px 10px 30px;
+    min-width: 0;
+    max-width: 100%;
+}
+
+.productTitle {
+    margin: 0 0 10px 20px;
+}
+
+.productMetadata {
+    display: flex;
+    max-width: 100%;
+    margin: 0 50px;
+}
+
+.metadataLeft {
+    margin: 5px 0;
+    flex-shrink: 0;
+}
+
+.metadataLeft a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.15s ease-in;
+}
+
+.metadataLeft a:hover {
+    text-decoration: none;
+    color: rgb(56, 87, 118);
+    transition: color 0.15s ease-in;
+}
+
+.metadataRight {
+    margin: auto;
+}
+
+.metadataRight p {
+    margin: 0 0 10px 20px;
+}
+
+.downloadButton {
+    color: white;
+    background-color: #672f98;
+    width: 100%;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 1em;
+    border-radius: 1em;
+    border: none;
+}
+
+.downloadButton:hover {
+    color: white;
+    background-color: #754f97;
+    transition: background-color 0.15s ease-in;
+    cursor: pointer;
+}
+
+.screenshotArea {
+    display: inline-block; 
+    width: 100%; 
+    margin: auto; 
+    text-align: center; 
+    overflow-x: scroll; 
+    white-space: nowrap;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.screenshotArea a {
+    text-decoration: none;
+}
+
+.screenshotArea img {
+    max-height: 500px; 
+    margin: 15px; 
+    border-radius: 20px;
+}
+
+@media (max-width: 700px) {
+    .productMetadata {
+        display: block;
+        margin: 0 30px;
+    }
+    
+    .downloadButton {
+        margin-bottom: 20px;
+        width: 100px;
+        max-width: 100%;
+        font-size: 1.25em;
+        padding: 0 20px;
+    }
+    
+    .appIcon {
+        margin: 0;
+    }
+
+    .metadataRight p {
+        margin: 10px 0;
+    }
+
+    .metadataRight h2 {
+        margin: 10px 0;
+    }
+
+    .productsArea {
+        padding: 0;
+    }
+
+    .productEntry {
+        padding: 50px 0;
+        margin: 30px 0;
+        background-color: rgba(255, 255, 255, 0.371);
+        border-radius: 0;
+        box-shadow: #1414143b 0px 10px 30px;
+    }
+}
+
 .header
 {
   padding: 30px;
@@ -62,9 +322,4 @@ a:hover
 {
   text-decoration: none !important;
   border-bottom-style: none;
-}
-
-.tutorialguide
-{
-  margin-left: 15px;
 }
